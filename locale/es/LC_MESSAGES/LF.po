@@ -1,100 +1,99 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# TITULO DE DESCRIPCION.
+# Derechos Reservados (C) AÑO TITULAR DEL COPYRIGHT DEL PAQUETE
+# Este archivo es distribuido bajo la licencia que paquete PACKAGE.
+# PRIMER AUTOR <CORREO@DIRECCION.COM>, AÑO.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-18 02:04+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"id-version-proyecto: PACKAGE version\n"
+"Reportar-bugs-Msgid-To: \n"
+"POT-Fecha-Creacion: 2021-07-18 02:04+0000\n"
+"PO-Fecha-Revision: YEAR-MO-DA HO:MI+ZONE\n"
+"Ultima-Traduccion: NOMBRE COMPLETO <CORREO@DIRECCION.COM>\n"
+"Lenguaje-Equipo: Lenguaje <LL@li.org>\n"
+"Lenguaje: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Tipo-Contenido: texto/plano; charset=UTF-8\n"
+"Codificacion-de-Transferencia-de-contenido 8bit\n"
+"Formas-Plurales: nplurals=2; plural=(n != 1);\n"
 
 #: app/admin.py:19
-msgid "Personal info"
+msgid "Información Personal"
 msgstr ""
 
 #: app/admin.py:20
-msgid "Permissions"
+msgid "Permisos"
 msgstr ""
 
 #: app/admin.py:40 app/admin.py:149 app/admin.py:183
-msgid "amount_in is required if payment status is received"
+msgid "monto_deposito es requerido si se recibe el estado de pago"
 msgstr ""
 
 #: app/admin.py:48 app/admin.py:157 app/admin.py:191
-msgid "amount_out is required if payment status is sent"
-msgstr ""
+msgid "Monto_saliente se requiere si es estado se envía"msgstr ""
 
 #: app/admin.py:288
 #, python-format
 msgid ""
-"Make sure to configure the <a href=\"%(link)s\">%(label)s</a> for asset "
+"Asegurarse de configurar <a href=\"%(link)s\">%(label)s</a> para activar "
 "%(code)s"
 msgstr ""
 
-#: app/integrations/binance/deposit.py:44
-#: app/integrations/binance/withdrawal.py:37 app/integrations/btc/deposit.py:41
-#: app/integrations/btc/withdrawal.py:34 app/integrations/btcln/deposit.py:40
-#: app/integrations/btcln/withdrawal.py:36 app/integrations/clp/deposit.py:34
-#: app/integrations/ethereum/deposit.py:34
-#: app/integrations/ethereum/withdrawal.py:42
-#: app/integrations/tron/deposit.py:44 app/integrations/tron/withdrawal.py:37
-msgid "Missing or invalid \"type\""
+#: app/integrations/binance/deposito.py:44
+#: app/integrations/binance/retiro.py:37 app/integracion/btc/deposito.py:41
+#: app/integrations/btc/retiro.py:34 app/integracion/btcln/deposito.py:40
+#: app/integrations/btcln/retiro.py:36 app/integracion/clp/deposito.py:34
+#: app/integrations/ethereum/deposito.py:34
+#: app/integrations/ethereum/retiro.py:42
+#: app/integrations/tron/deposito.py:44 app/integracion/tron/retiro.py:37
+msgid "Perdida o invalida \"tipo\""
 msgstr ""
 
-#: app/integrations/binance/deposit.py:114
+#: app/integracion/binance/deposito.py:114
 #, python-format
 msgid ""
-"Send a Binance %(token)s payment to the address %(address)s. Token "
-"information available at %(url)s"
+"Enviar a pago %(token)s binace a la dirección %(address)s. Token "
+"Informacion Disponible en %(url)s"
 msgstr ""
 
 #: app/integrations/binance/withdrawal.py:32
-msgid "\"dest\" must contain a valid Binance address"
+msgid "\"dest\" Debe considerarte una direccion Binance valida"
 msgstr ""
 
 #: app/integrations/btc/deposit.py:47 app/integrations/btcln/deposit.py:46
 #: app/integrations/clp/deposit.py:42
 #, python-format
-msgid "Invalid amount - cannot have more than %(places)s decimal places"
+msgid "Monto Invalido - no se puede tener más de %(places) decimales"
 msgstr ""
 
 #: app/integrations/btc/deposit.py:54 app/integrations/btcln/deposit.py:53
 #: app/integrations/clp/deposit.py:49
-msgid "Missing or invalid \"amount\""
+msgid "Perdida o invalida \"amount\""
 msgstr ""
 
 #: app/integrations/btc/deposit.py:98
 #, python-format
-msgid "Send a Bitcoin payment to the address %(address)s"
+msgid "Enviar un pago de bitcoin a la dirección %(address)s"
 msgstr ""
 
 #: app/integrations/btc/deposit.py:137 app/integrations/btcln/deposit.py:150
 #, python-format
-msgid "Option 1: Open the checkout page: %(checkout)s. "
+msgid "Opción 1: Abrir pagina de compra %(checkout)s. "
 msgstr ""
 
 #: app/integrations/btc/deposit.py:144
 #, python-format
-msgid "Option 2: Send the BTC payment to the BTC address %(onchain)s. "
+msgid "Opción 2: Enviar el pago de BTC a la dirección BTC %(onchain)s. "
 msgstr ""
 
 #: app/integrations/btc/deposit.py:150
 #, python-format
-msgid "Option 3: Pay the Bitcoin Lightning invoice: %(offchain)s. "
+msgid "Opción 3: Pagar el bitcoin con boleta light %(offchain)s. "
 msgstr ""
 
 #: app/integrations/btc/withdrawal.py:40
-msgid "\"dest\" must contain a valid Bitcoin address"
+msgid "\"dest\" Debe contener una dirección Bitcoin valida"
 msgstr ""
 
 #: app/integrations/btcln/deposit.py:97
