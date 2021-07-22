@@ -20,26 +20,26 @@ msgstr ""
 
 #: app/admin.py:19
 msgid "Personal info"
-msgstr ""
+msgstr "Información Personal"
 
 #: app/admin.py:20
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: app/admin.py:40 app/admin.py:149 app/admin.py:183
 msgid "amount_in is required if payment status is received"
-msgstr ""
+msgstr "amount_in se requiere si el estado del pago esta recibido"
 
 #: app/admin.py:48 app/admin.py:157 app/admin.py:191
 msgid "amount_out is required if payment status is sent"
-msgstr ""
+msgstr "amount_out se requiere si el estado del pago es enviado"
 
 #: app/admin.py:288
 #, python-format
 msgid ""
 "Make sure to configure the <a href=\"%(link)s\">%(label)s</a> for asset "
 "%(code)s"
-msgstr ""
+msgstr "Asegúrate de configurar el <a href=\"%(link)s\">%(label)s</a> para activarlo "
 
 #: app/integrations/binance/deposit.py:44
 #: app/integrations/binance/withdrawal.py:37 app/integrations/btc/deposit.py:41
@@ -49,78 +49,79 @@ msgstr ""
 #: app/integrations/ethereum/withdrawal.py:42
 #: app/integrations/tron/deposit.py:44 app/integrations/tron/withdrawal.py:37
 msgid "Missing or invalid \"type\""
-msgstr ""
+msgstr "Falta o inválido \"type\""
 
 #: app/integrations/binance/deposit.py:114
 #, python-format
 msgid ""
 "Send a Binance %(token)s payment to the address %(address)s. Token "
 "information available at %(url)s"
-msgstr ""
+msgstr "Envía a Binance %(token)s el pago a la dirección %(address)s. Token"
+"información disponible en %(url)s"
 
 #: app/integrations/binance/withdrawal.py:32
 msgid "\"dest\" must contain a valid Binance address"
-msgstr ""
+msgstr "\"dest\" Debe contener una dirección binance valida"
 
 #: app/integrations/btc/deposit.py:47 app/integrations/btcln/deposit.py:46
 #: app/integrations/clp/deposit.py:42
 #, python-format
 msgid "Invalid amount - cannot have more than %(places)s decimal places"
-msgstr ""
+msgstr "Monto invalido - no puede tener más de %(places)s decimales"
 
 #: app/integrations/btc/deposit.py:54 app/integrations/btcln/deposit.py:53
 #: app/integrations/clp/deposit.py:49
 msgid "Missing or invalid \"amount\""
-msgstr ""
+msgstr "Falta o inválido \"amount\""
 
 #: app/integrations/btc/deposit.py:98
 #, python-format
 msgid "Send a Bitcoin payment to the address %(address)s"
-msgstr ""
+msgstr "Enviar un pago Bitcoin a la siguiente dirección %(address)s"
 
 #: app/integrations/btc/deposit.py:137 app/integrations/btcln/deposit.py:150
 #, python-format
 msgid "Option 1: Open the checkout page: %(checkout)s. "
-msgstr ""
+msgstr "Opción 1: Abrir la página de pago: %(checkout)s. "
 
 #: app/integrations/btc/deposit.py:144
 #, python-format
 msgid "Option 2: Send the BTC payment to the BTC address %(onchain)s. "
-msgstr ""
+msgstr "Opción 2: Enviar el pago de BTC a la dirección %(onchain)s. "
 
 #: app/integrations/btc/deposit.py:150
 #, python-format
 msgid "Option 3: Pay the Bitcoin Lightning invoice: %(offchain)s. "
-msgstr ""
+msgstr "Opción 3: Pagar la factura Bitcoin Lightning: %(offchain)s. "
 
 #: app/integrations/btc/withdrawal.py:40
 msgid "\"dest\" must contain a valid Bitcoin address"
-msgstr ""
+msgstr "\"dest\" Debe contener una dirección de Bitcoin valida"
 
 #: app/integrations/btcln/deposit.py:97
 #, python-format
 msgid ""
 "Open the checkout page: %(checkout)s or Pay the Bitcoin Lightning invoice: "
 "%(payreq)s"
-msgstr ""
+msgstr "Abrir la página de pago: %(checkout)s o pagar la factura de Bitcoin Lightning:"
 
 #: app/integrations/btcln/deposit.py:157
 #, python-format
 msgid "Option 2: Pay the Bitcoin Lightning invoice: %(offchain)s. "
-msgstr ""
+msgstr "Opción 2: Pagar la factura de Bitcoin Lightning: %(offchain)s. "
 
 #: app/integrations/btcln/deposit.py:161
 #, python-format
 msgid "Option 3: Send the BTC payment to the BTC address %(onchain)s. "
-msgstr ""
+msgstr "Opción 3: Enviar el pago de BTC a una dirección de BTC %(onchain)s. "
 
 #: app/integrations/btcln/withdrawal.py:43
 msgid "\"dest\" must be a valid Lightning BOLT11 invoice address"
-msgstr ""
+msgstr "\"dest\" Debe tener una dirección de factura Lightning BOLT11 valida "
 
 #: app/integrations/btcln/withdrawal.py:46 app/integrations/forms.py:71
 msgid "Invoices without an amount are not supported"
-msgstr ""
+msgstr "No se admiten facturas sin monto"
 
 #: app/integrations/clp/deposit.py:88
 #, python-format
@@ -128,104 +129,107 @@ msgid ""
 "Send a transfer to our bank account with this note: %(external_memo)s | "
 "Recipient: %(recipient)s | Bank account: %(bank_account)s | Bank: %(bank)s | "
 "Funds available within %(hours)s hours."
-msgstr ""
+msgstr "Envía una transferencia a nuestro banco con esta nota: %(external_memo)s | "
+"Destinatario: %(recipient)s | Cuenta del Banco: %(bank_account)s | Banco: %(bank)s | "
+"Fondos disponibles en %(hours)s hours."
 
 #: app/integrations/clp/rails.py:57
 msgid "amount_in is None"
-msgstr ""
+msgstr "amount_in Ninguno"
 
 #: app/integrations/clp/rails.py:64
 #, python-format
 msgid "amount_in is not between %(min_amount)s and %(max_amount)s"
-msgstr ""
+msgstr "amount_in No es entre %(min_amount)s y %(max_amount)s"
 
 #: app/integrations/clp/withdrawal.py:33
 msgid "Missing or invalid value for \"type\""
-msgstr ""
+msgstr "Valor faltante o no valido \"type\""
 
 #: app/integrations/clp/withdrawal.py:73
 #, python-format
 msgid "Invalid value for 'tax_id': %(tax_id)s"
-msgstr ""
+msgstr "Valor invalido para 'tax_id': %(tax_id)s"
 
 #: app/integrations/customers.py:81
 msgid "account differs from authenticated account"
-msgstr ""
+msgstr "La cuenta difiere de la cuenta autenticada"
 
 #: app/integrations/ethereum/deposit.py:79
 #, python-format
 msgid ""
 "Send a Ethereum ERC20 %(token)s payment to the address %(address)s. Token "
 "information available at %(url)s"
-msgstr ""
+msgstr "Envíar a Ethereum ERC20 %(token)s el pago a la dirección %(address)s. Token "
+"Información disponible en %(url)s"
 
 #: app/integrations/ethereum/withdrawal.py:37
 msgid "\"dest\" must contain a valid Ethereum address"
-msgstr ""
+msgstr "\"dest\" Debe contener una dirección valida en Ethereum"
 
 #: app/integrations/forms.py:38
 msgid "Will not be shared with 3rd parties"
-msgstr ""
+msgstr "No se compartirá con terceras partes"
 
 #: app/integrations/forms.py:44 app/integrations/forms.py:45
 #: app/integrations/info.py:51
 msgid "Destination Bitcoin address"
-msgstr ""
+msgstr "Dirección de destino Bitcoin"
 
 #: app/integrations/forms.py:69
 msgid "Invalid Bitcoin Lightning BOLT11 invoice address"
-msgstr ""
+msgstr "Dirección de factura invalida para Bitcoin Lightning BOLT11"
 
 #: app/integrations/forms.py:106
 msgid "Full address"
-msgstr ""
+msgstr "Dirección completa"
 
 #: app/integrations/forms.py:112 app/integrations/forms.py:137
 #: app/integrations/forms.py:264
 msgid "Ex: +5511999998888"
-msgstr ""
+msgstr "Ejemplo +5511999998888"
 
 #: app/integrations/forms.py:149 app/integrations/forms.py:154
 #: app/integrations/forms.py:288 app/integrations/forms.py:293
 msgid "This field is required"
-msgstr ""
+msgstr "Este campo es requisito"
 
 #: app/integrations/forms.py:198 app/integrations/forms.py:242
 #, python-format
 msgid "RUT (Rol Único Tributario) <a class=\"infolink\" href=\"%(link)s\"></a>"
-msgstr ""
+msgstr ""RUT (Rol Único Tributario) <a class=\"infolink\" href=\"%(link)s\"></a>"
 
 #: app/integrations/forms.py:203 app/integrations/forms.py:247
 msgid "RUT (Rol Único Tributario) - 8 or 9-digit number"
-msgstr ""
+msgstr "RUT (Rol Único Tributario) - 8 o 9 números"
 
 #: app/integrations/forms.py:326 app/integrations/forms.py:336
 #: app/integrations/forms.py:437 app/integrations/forms.py:447
 msgid "Transfer type"
-msgstr ""
+msgstr "Tipo de transferencia"
 
 #: app/integrations/forms.py:327 app/integrations/forms.py:337
 #: app/integrations/forms.py:438 app/integrations/forms.py:448
 msgid "Deposit transfer method"
-msgstr ""
+msgstr "Método de transferencia del depósito"
 
 #: app/integrations/forms.py:328 app/integrations/forms.py:338
 #: app/integrations/forms.py:439 app/integrations/forms.py:449 app/models.py:60
 #: app/templates/polaris/more_info.html:59
 msgid "Bank account"
-msgstr ""
+msgstr "Cuenta bancaria"
 
 #: app/integrations/forms.py:391 app/integrations/forms.py:392
 msgid "Destination Ethereum address"
-msgstr ""
+msgstr "Dirección de Ethereum de destino"
 
 #: app/integrations/forms.py:452
 msgid "Destination bank account number"
-msgstr ""
+msgstr "Número de cuenta bancaria de destino"
 
 #: app/integrations/forms.py:453
 msgid "Destination Bank account number"
-msgstr ""
+msgstr "Número de cuenta bancaria de destino"
 
 #: app/integrations/forms.py:501 app/integrations/forms.py:502
 msgid "Destination Binance address"
@@ -233,614 +237,621 @@ msgstr ""
 
 #: app/integrations/forms.py:518 app/integrations/forms.py:519
 msgid "Destination Tron address"
-msgstr ""
+msgstr "Dirección de Binance de destino"
 
 #: app/integrations/info.py:14
 #, python-format
 msgid "Amount (in CLPX) to deposit - maximum %(places)s decimal places allowed"
-msgstr ""
+msgstr "Monto (in CLPX) a depositar - máximo %(places)s decimales permitidos"
 
 #: app/integrations/info.py:21 app/integrations/info.py:61
 #: app/integrations/info.py:79 app/integrations/info.py:149
 #: app/integrations/info.py:167
 msgid "Deposit type"
-msgstr ""
+msgstr "Tipo de deposito"
 
 #: app/integrations/info.py:29 app/integrations/info.py:117
 msgid "Destination bank account"
-msgstr ""
+msgstr "Cuenta bancaria de destino"
 
 #: app/integrations/info.py:40
 #, python-format
 msgid "Amount (in BTC) to deposit - maximum %(places)s decimal places allowed"
-msgstr ""
+msgstr "Monto (in BTC) a depositar - máximo %(places)s decimales permitidos"
 
 #: app/integrations/info.py:69 app/integrations/info.py:139
 msgid "Destination ethereum address"
-msgstr ""
+msgstr "Dirección de ethereum de destino"
 
 #: app/integrations/info.py:83 app/integrations/info.py:102 app/models.py:314
 msgid "Given or first name"
-msgstr ""
+msgstr "Primer nombre"
 
 #: app/integrations/info.py:86 app/integrations/info.py:105 app/models.py:305
 #: app/models.py:322
 msgid "Family or last name"
-msgstr ""
+msgstr "Apellido"
 
 #: app/integrations/info.py:89 app/integrations/info.py:108 app/models.py:367
 msgid ""
 "Entire address (country, state, postal code, street address, etc...) as a "
 "multi-line string"
-msgstr ""
+msgstr "Dirección completa (País, Ciudad, Código postal, calle, etc...) como una "
 
 #: app/integrations/info.py:92 app/integrations/info.py:111 app/models.py:375
 msgid "Mobile phone number with country code, in E.164 format"
-msgstr ""
+msgstr "Número de teléfono móvil con código de país, en formato Ej +554412.."
 
 #: app/integrations/info.py:95 app/integrations/info.py:114 app/models.py:382
 #: app/models.py:383
 msgid "Email address"
-msgstr ""
+msgstr "Dirección de correo electrónico"
 
 #: app/integrations/info.py:128
 #, python-format
 msgid ""
 "Amount (in BTCLN) to deposit - maximum %(places)s decimal places allowed"
-msgstr ""
+msgstr "Monto (in BTCLN) a depositar - máximo %(places)s decimales permitido"
 
 #: app/integrations/info.py:157
 msgid "Destination binance address"
-msgstr ""
+msgstr "Dirección de Binance de destino"
 
 #: app/integrations/info.py:175
 msgid "Destination tron address"
-msgstr ""
+msgstr "Dirección de tron de destino"
 
 #: app/integrations/sep31.py:58
 msgid "Invalid receiver_id"
-msgstr ""
+msgstr "receiver_id invalido"
 
 #: app/integrations/transactions.py:116
 msgid "Stellar Deposit"
-msgstr ""
+msgstr "Depósito Stellar"
 
 #: app/integrations/transactions.py:276
 msgid "Stellar Withdrawal"
-msgstr ""
+msgstr "Retiro Stellar"
 
 #: app/integrations/tron/deposit.py:114
 #, python-format
 msgid ""
 "Send a Tron %(token)s payment to the address %(address)s. Token information "
 "available at %(url)s"
-msgstr ""
+msgstr "Enviar a Tron %(token)s pago a la siguiente dirección %(address)s. Información de Token "
+"disponible en %(url)s"
 
 #: app/integrations/tron/withdrawal.py:32
 msgid "\"dest\" must contain a valid Tron address"
-msgstr ""
+msgstr "\"dest\" Debe contener una dirección Tron valida"
 
 #: app/integrations/usd/deposit.py:70
 msgid "Signature bank routing code yyyy account xxxx - send to BP ventures"
-msgstr ""
+msgstr "Firma de ruta del banco código yyyy cuenta xxxx - enviar a BP ventures"
 
 #: app/integrations/usd/withdrawal.py:33
 msgid "Missing or invalid \"dest\""
-msgstr ""
+msgstr "Falta o invalida \"dest\""
 
 #: app/integrations/utils.py:345 app/integrations/utils.py:358
 msgid "RUT (Rol Único Tributario)"
-msgstr ""
+msgstr "RUT (Rol Único Tributario)"
 
 #: app/models.py:59 apps/clp/models.py:9 apps/coinbase_web/models.py:9
 #: apps/usd/models.py:9
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 #: app/models.py:61
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: app/models.py:62 apps/chaingateway/models.py:19
 msgid "Ethereum"
-msgstr ""
+msgstr "Ethereum"
 
 #: app/models.py:63
 msgid "Lightning"
-msgstr ""
+msgstr "Lightning"
 
 #: app/models.py:64 apps/chaingateway/models.py:20
 msgid "Binance"
-msgstr ""
+msgstr "Binance"
 
 #: app/models.py:65 apps/chaingateway/models.py:21
 msgid "Tron"
-msgstr ""
+msgstr "Tron"
 
 #: app/models.py:208
 msgid "Deposit"
-msgstr ""
+msgstr "Deposito"
 
 #: app/models.py:209
 msgid "Withdrawal"
-msgstr ""
+msgstr "Retiro"
 
 #: app/models.py:210
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: app/models.py:239 app/models.py:251
 msgid ""
 "Time range from now to the past, in seconds, to consider when checking the "
 "rate limits"
-msgstr ""
+msgstr ""Rango de tiempo desde ahora hasta el pasado, en segundos, a considerar al verificar el "
+"Límites de tarifa"
 
 #: app/models.py:266
 msgid "text"
-msgstr ""
+msgstr "Texto"
 
 #: app/models.py:267
 msgid "id"
-msgstr ""
+msgstr "id"
 
 #: app/models.py:268
 msgid "hash"
-msgstr ""
+msgstr "hash"
 
 #: app/models.py:271
 msgid "Person"
-msgstr ""
+msgstr "Persona"
 
 #: app/models.py:272
 msgid "Company"
-msgstr ""
+msgstr "Compañia"
 
 #: app/models.py:278 apps/clp/models.py:36
 msgid "Notes"
-msgstr ""
+msgstr "Nota"
 
 #: app/models.py:297
 msgid "SEP-31 enabled"
-msgstr ""
+msgstr "SEP-31 disponible"
 
 #: app/models.py:298
 msgid "Indicates whether the customer can use SEP-31 or not"
-msgstr ""
+msgstr "Indica si el cliente puede o no usar SEP-31"
 
 #: app/models.py:304
 msgid "Account type"
-msgstr ""
+msgstr "Tipo de cuenta"
 
 #: app/models.py:314
 msgid "First name"
-msgstr ""
+msgstr "Primer nombre"
 
 #: app/models.py:321
 msgid "Last name"
-msgstr ""
+msgstr "Apellido"
 
 #: app/models.py:328
 msgid "Additional name"
-msgstr ""
+msgstr "Nombre adicional"
 
 #: app/models.py:329
 msgid "Middle name or other additional name"
-msgstr ""
+msgstr "Algún otro nombre adicional"
 
 #: app/models.py:336
 msgid "Address country code"
-msgstr ""
+msgstr "Código de dirección del país"
 
 #: app/models.py:337
 msgid "Country code for current address"
-msgstr ""
+msgstr "Código de dirección del país actual"
 
 #: app/models.py:343
 msgid "State or province"
-msgstr ""
+msgstr "Estado o provincia"
 
 #: app/models.py:344
 msgid "Name of state/province/region/prefecture"
-msgstr ""
+msgstr "Nombre del estado/provincia/región"
 
 #: app/models.py:350
 msgid "City"
-msgstr ""
+msgstr "Ciudad"
 
 #: app/models.py:351
 msgid "Name of city/town"
-msgstr ""
+msgstr "Nombre de la ciudad"
 
 #: app/models.py:358
 msgid "Postal code"
-msgstr ""
+msgstr "Codigo postal"
 
 #: app/models.py:359
 msgid "Postal or other code identifying user's locale"
-msgstr ""
+msgstr "Código postal u otro código que identifique la región del usuario"
 
 #: app/models.py:366
 msgid "Address"
-msgstr ""
+msgstr "Dirección"
 
 #: app/models.py:374
 msgid "Mobile number"
-msgstr ""
+msgstr "Número telefónico"
 
 #: app/models.py:390
 msgid "Birth date"
-msgstr ""
+msgstr "Fecha de cumpleaños"
 
 #: app/models.py:391
 msgid "Date of birth, e.g. 1976-07-04"
-msgstr ""
+msgstr "Fecha de cumpleaños, Ejemplo: 1976-07-04"
 
 #: app/models.py:397
 msgid "Birth place"
-msgstr ""
+msgstr "Lugar de nacimiento"
 
 #: app/models.py:398
 msgid "Place of birth (city, state, country; as on passport)"
-msgstr ""
+msgstr "Lugar de nacimiento (Ciudad, Región, País; tal como en el pasaporte)"
 
 #: app/models.py:404
 msgid "Birth country code"
-msgstr ""
+msgstr "Código de país de nacimiento"
 
 #: app/models.py:405
 msgid "ISO Code of country of birth"
-msgstr ""
+msgstr "Código ISO del país de nacimiento"
 
 #: app/models.py:411
 msgid "Bank account number"
-msgstr ""
+msgstr "Número de cuenta del banco"
 
 #: app/models.py:412
 msgid "Number identifying bank account"
-msgstr ""
+msgstr "Número de identificación de la cuenta del banco"
 
 #: app/models.py:418
 msgid "Bank number"
-msgstr ""
+msgstr "Número del banco"
 
 #: app/models.py:419
 msgid ""
 "Number identifying bank in national banking system (routing number in US)"
-msgstr ""
+msgstr "Número de identificación del banco en el sistema bancario nacional (número de ruta en EE. UU.)"
 
 #: app/models.py:425
 msgid "Bank name"
-msgstr ""
+msgstr "Nombre del banco"
 
 #: app/models.py:426
 msgid "Name identifying bank in national banking system"
-msgstr ""
+msgstr "Nombre que identifica al banco en el sistema bancario nacional"
 
 #: app/models.py:432
 msgid "Bank phone number"
-msgstr ""
+msgstr "Número de teléfono del banco"
 
 #: app/models.py:433
 msgid "Phone number with country code for bank"
-msgstr ""
+msgstr "Número de teléfono con código de país del banco"
 
 #: app/models.py:439
 msgid "Tax ID"
-msgstr ""
+msgstr "Identificación del impuesto"
 
 #: app/models.py:440
 msgid "Tax identifier of user in their country (social security number in US)"
-msgstr ""
+msgstr "Identificador fiscal del usuario en su país (número de seguro social en EE. UU.)"
 
 #: app/models.py:446
 msgid "TAX ID name"
-msgstr ""
+msgstr "Nombre de identificación del impuesto"
 
 #: app/models.py:447
 msgid "Name of the tax ID (SSN or ITIN in the US)"
-msgstr ""
+msgstr "Nombre de identificación del impuesto (SSN or ITIN en USA)"
 
 #: app/models.py:453
 msgid "Occupation"
-msgstr ""
+msgstr "Ocupación"
 
 #: app/models.py:454
 msgid "Occupation ISCO code"
-msgstr ""
+msgstr "Código ISCO de ocupación"
 
 #: app/models.py:460
 msgid "Employer name"
-msgstr ""
+msgstr "Nombre del empleador"
 
 #: app/models.py:461
 msgid "Name of employer"
-msgstr ""
+msgstr "Nombre del empleador"
 
 #: app/models.py:467
 msgid "Employer address"
-msgstr ""
+msgstr "Dirección del empleador"
 
 #: app/models.py:468
 msgid "Address of employer"
-msgstr ""
+msgstr "Dirección del empleador"
 
 #: app/models.py:474
 msgid "Language code"
-msgstr ""
+msgstr "Código de lenguaje"
 
 #: app/models.py:475
 msgid "Primary language"
-msgstr ""
+msgstr "Lenguaje primario"
 
 #: app/models.py:481
 msgid "ID type"
-msgstr ""
+msgstr "Tipo de identificación"
 
 #: app/models.py:482
 msgid "passport, drivers_license, id_card, etc..."
-msgstr ""
+msgstr "Pasaporte, Licencia_conducir, tarjeta_identificacion, etc..."
 
 #: app/models.py:489
 msgid "ID country code"
-msgstr ""
+msgstr "Código de identificación del país"
 
 #: app/models.py:490
 msgid "Country issuing passport or photo ID as ISO 3166-1 alpha-3 code"
-msgstr ""
+msgstr "País que emite pasaporte o identificación con foto como código ISO 3166-1 alfa-3"
 
 #: app/models.py:496 app/models.py:497
 msgid "ID issue date"
-msgstr ""
+msgstr "Fecha de emisión de la identificación"
 
 #: app/models.py:504 app/models.py:505
 msgid "ID expiration date"
-msgstr ""
+msgstr "Fecha de caducidad de la identificación"
 
 #: app/models.py:511
 msgid "ID number"
-msgstr ""
+msgstr "Número de identificación"
 
 #: app/models.py:512
 msgid "Passport or ID number"
-msgstr ""
+msgstr "Pasaporte o número de identificación"
 
 #: app/models.py:518
 msgid "Photo ID front"
-msgstr ""
+msgstr "Foto frontal de identificación"
 
 #: app/models.py:519
 msgid "Image of front of user's photo ID or passport"
-msgstr ""
+msgstr "Imagen de frente de la identificación con foto o pasaporte del usuario"
 
 #: app/models.py:525
 msgid "Photo ID back"
-msgstr ""
+msgstr "Foto de identificación por atrás"
 
 #: app/models.py:526
 msgid "Image of back of user's photo ID or passport"
-msgstr ""
+msgstr "Imagen del reverso de la identificación con foto del usuario o del pasaporte"
 
 #: app/models.py:532
 msgid "Notary approval of photo ID"
-msgstr ""
+msgstr "Aprobación notarial de una identificación con foto"
 
 #: app/models.py:533
 msgid "Image of notary's approval of photo ID or passport"
-msgstr ""
+msgstr "Imagen de la aprobación del notario de una identificación con foto o pasaporte"
 
 #: app/models.py:539
 msgid "IP address"
-msgstr ""
+msgstr "Dirección IP"
 
 #: app/models.py:540
 msgid "IP address of customer's computer"
-msgstr ""
+msgstr "Dirección IP del computador del cliente"
 
 #: app/models.py:546
 msgid "Photo proof residence"
-msgstr ""
+msgstr "Foto de prueba de residencia"
 
 #: app/models.py:547
 msgid ""
 "Image of a utility bill, bank statement or similar with the user's name and "
 "address"
-msgstr ""
+msgstr "Imagen de una factura de servicios públicos, extracto bancario o similar con el nombre del usuario y "
+"dirección"
 
 #: app/models.py:556
 msgid "Organization name"
-msgstr ""
+msgstr "Nombre de la organización"
 
 #: app/models.py:557
 msgid "Full organization name as on the incorporation papers"
-msgstr ""
+msgstr "Nombre completo de la organización tal como en los documentos de la incorporación"
 
 #: app/models.py:563 app/models.py:564
 msgid "Organization VAT number"
-msgstr ""
+msgstr "Número de IVA de la organización"
 
 #: app/models.py:570 app/models.py:571
 msgid "Organization registration number"
-msgstr ""
+msgstr "Número de registro de la organización"
 
 #: app/models.py:577 app/models.py:578
 msgid "Organization registered address"
-msgstr ""
+msgstr "Dirección registrada de la organización"
 
 #: app/models.py:584 app/models.py:585
 msgid "Organization shareholder number"
-msgstr ""
+msgstr "Número de accionista de la organización"
 
 #: app/models.py:591
 msgid "Organization shareholder name"
-msgstr ""
+msgstr "Nombre del accionista de la organización"
 
 #: app/models.py:592
 msgid ""
 "Can be an organization or a person and should be queried recursively up to "
 "the ultimate beneficial owners (with KYC information for natural persons "
 "such as above)"
-msgstr ""
+msgstr "Puede ser una organización o una persona y debe consultarse de forma recursiva hasta "
+"El último dueño con beneficios (con información KYC de persona natural "
+"como arriba)"
 
 #: app/models.py:598
 msgid "Organization photo incorporation doc"
-msgstr ""
+msgstr "Foto del documento de incorporación de la organización"
 
 #: app/models.py:599
 msgid "Image of incorporation documents"
-msgstr ""
+msgstr "Foto de los documentos de la incorporación"
 
 #: app/models.py:605
 msgid "Organization photo proof address"
-msgstr ""
+msgstr "Foto de prueba de la dirección de la organización"
 
 #: app/models.py:606
 msgid ""
 "Image of a utility bill, bank statement with the organization's name and "
 "address"
-msgstr ""
+msgstr "Imagen de una factura de servicios públicos, extracto bancario con el nombre de la organización y "
+"dirección"
 
 #: app/models.py:612
 msgid "Organization address country code"
-msgstr ""
+msgstr "Código de país de la dirección de la organización"
 
 #: app/models.py:613
 msgid "country code for current address"
-msgstr ""
+msgstr "Código de país para la dirección actual"
 
 #: app/models.py:619
 msgid "Organization state or province"
-msgstr ""
+msgstr "Estado o provincia de la organización"
 
 #: app/models.py:620
 msgid "name of state/province/region/prefecture"
-msgstr ""
+msgstr "Nombre del estado/provincia/región"
 
 #: app/models.py:626
 msgid "Organization city"
-msgstr ""
+msgstr "Ciudad de la organización"
 
 #: app/models.py:627
 msgid "name of city/town"
-msgstr ""
+msgstr "Nombre de la ciudad"
 
 #: app/models.py:633
 msgid "Organization postal code"
-msgstr ""
+msgstr "Código postal de la organización"
 
 #: app/models.py:634
 msgid "Postal or other code identifying organization's locale"
-msgstr ""
+msgstr "Código postal u otro código que identifique la ubicación de la organización"
 
 #: app/models.py:640
 msgid "Organization director name"
-msgstr ""
+msgstr "Nombre del director de la organización"
 
 #: app/models.py:641
 msgid ""
 "Organization registered managing director (the rest of the information "
 "should be queried as an individual using the fields above)"
-msgstr ""
+msgstr "Director general registrado de la organización (el resto de la información "
+"debe ser consultado como individuo usando los campos de arriba)"
 
 #: app/models.py:647 app/models.py:648
 msgid "Organization website"
-msgstr ""
+msgstr "Página web de la organización"
 
 #: app/models.py:654
 msgid "Organization email"
-msgstr ""
+msgstr "Correo electrónico de la organización"
 
 #: app/models.py:655
 msgid "Organization contact email"
-msgstr ""
+msgstr "Contacto del correo electrónico"
 
 #: app/models.py:661
 msgid "Organization phone"
-msgstr ""
+msgstr "Teléfono de la organización"
 
 #: app/models.py:662
 msgid "Organization contact phone"
-msgstr ""
+msgstr "Contacto del teléfono de contacto"
 
 #: app/settings.py:171
 msgid "English"
-msgstr ""
+msgstr "Inglés"
 
 #: app/settings.py:172
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
 
 #: app/settings.py:173
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 #: app/settings.py:174
 msgid "Japanese"
-msgstr ""
+msgstr "Japonés"
 
 #: app/settings.py:175
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugés"
 
 #: app/templates/admin/clp/transaction/change_form.html:53
 msgid "Money has been received from the user"
-msgstr ""
+msgstr "Se ha recibido dinero del usuario"
 
 #: app/templates/admin/clp/transaction/change_form.html:53
 msgid "Money received from the user"
-msgstr ""
+msgstr "Dinero recibido del usuario"
 
 #: app/templates/admin/clp/transaction/change_form.html:57
 msgid "Money has been sent to the user"
-msgstr ""
+msgstr "El dinero ha sido enviado al usuario"
 
 #: app/templates/admin/clp/transaction/change_form.html:57
 msgid "Money sent to the user"
-msgstr ""
+msgstr "Dinero enviado al usuario"
 
 #: app/templates/polaris/deposit.html:9 app/templates/polaris/withdraw.html:30
 msgid "Please fill out the fields below."
-msgstr ""
+msgstr "Por favor complete los campos a continuación."
 
 #: app/templates/polaris/deposit.html:42
 #: app/templates/polaris/withdraw.html:121
 #: app/templates/transaction_error.html:54
 #: app/templates/withdrawal_received.html:76
 msgid "Fee"
-msgstr ""
+msgstr "Tarifa"
 
 #: app/templates/polaris/deposit.html:43
 #: app/templates/polaris/withdraw.html:122
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: app/templates/polaris/deposit.html:48
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 #: app/templates/polaris/deposit.html:55
 #: app/templates/polaris/withdraw.html:135
 msgid "Refresh"
-msgstr ""
+msgstr "Refrescar"
 
 #: app/templates/polaris/more_info.html:7
 msgid "Transaction More Info"
-msgstr ""
+msgstr "Más información de la transacción"
 
 #: app/templates/polaris/more_info.html:39
 msgid "Send a transfer to our bank account:"
-msgstr ""
+msgstr "Envíe una transferencia a nuestra cuenta bancaria:"
 
 #: app/templates/polaris/more_info.html:43
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #: app/templates/polaris/more_info.html:51
 msgid "Recipient"
-msgstr ""
+msgstr "Destinatario"
 
 #: app/templates/polaris/more_info.html:67
 msgid "Bank"
-msgstr ""
+msgstr "Banco"
 
 #: app/templates/polaris/more_info.html:76
 #, python-format
@@ -849,7 +860,8 @@ msgid ""
 "              Make sure to attach the note <span style=\"color: #ff9100\">"
 "%(note)s</span> to the transfer.\n"
 "              "
-msgstr ""
+msgstr "Asegúrate de adjuntar la nota <span style=\"color: #ff9100\">"
+"%(note)s</span> a la transferencia.\n"
 
 #: app/templates/polaris/more_info.html:80
 #, python-format
@@ -862,11 +874,17 @@ msgid ""
 "              %(support_email)s\n"
 "            </a>\n"
 "            "
-msgstr ""
+msgstr "Fondos disponibles dentro de %(eta)s posteriores a la recepción de la transferencia. "
+"<br>\n"
+"            Para obtener más información, póngase en contacto \n"
+"            <a href=\"mailto:%(support_email)s\">\n"
+"              %(support_email)s\n"
+"            </a>\n"
+"            "
 
 #: app/templates/polaris/more_info.html:95
 msgid "Click here to see the blockchain transaction"
-msgstr ""
+msgstr "Haga clic aquí para ver la transacción blockchain"
 
 #: app/templates/polaris/more_info.html:101
 #, python-format
@@ -881,31 +899,40 @@ msgid ""
 "                %(support_email)s\n"
 "              </a>\n"
 "              "
-msgstr ""
+msgstr ""\n"
+"              Envíe un pago de Bitcoin a la dirección: <br>\n"
+"              <span style=\"font-weight: bold; word-break: break-all;\">\n"
+"              %(address)s\n"
+"              </span>\n"
+"              Para obtener más información, póngase en contacto \n"
+"              <a href=\"mailto:%(support_email)s\">\n"
+"                %(support_email)s\n"
+"              </a>\n"
+"              "
 
 #: app/templates/polaris/more_info.html:115
 msgid "BTC payment:"
-msgstr ""
+msgstr "Pago de BTC"
 
 #: app/templates/polaris/more_info.html:118
 #: app/templates/polaris/more_info.html:212
 msgid "Continue to payment"
-msgstr ""
+msgstr "Continuar con el pago"
 
 #: app/templates/polaris/more_info.html:122
 msgid "Alternative payment options:"
-msgstr ""
+msgstr "Opciones de pago alternativas:"
 
 #: app/templates/polaris/more_info.html:125
 #: app/templates/polaris/more_info.html:223
 msgid "Option 1 - "
-msgstr ""
+msgstr "Opción 1 - "
 
 #: app/templates/polaris/more_info.html:125
 #: app/templates/polaris/more_info.html:236
 #, python-format
 msgid "Send %(amount_in)s BTC to the BTC address:"
-msgstr ""
+msgstr "Enviar %(amount_in)s BTC a la dirección BTC:"
 
 #: app/templates/polaris/more_info.html:134
 #: app/templates/polaris/more_info.html:148
@@ -932,7 +959,7 @@ msgstr ""
 #: app/templates/polaris/more_info.html:744
 #: app/templates/polaris/more_info.html:759
 msgid "Copied!"
-msgstr ""
+msgstr "¡Copiado!"
 
 #: app/templates/polaris/more_info.html:134
 #: app/templates/polaris/more_info.html:148
@@ -958,17 +985,17 @@ msgstr ""
 #: app/templates/polaris/more_info.html:744
 #: app/templates/polaris/more_info.html:759
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: app/templates/polaris/more_info.html:139
 #: app/templates/polaris/more_info.html:236
 msgid "Option 2 - "
-msgstr ""
+msgstr "Opación 2 -"
 
 #: app/templates/polaris/more_info.html:139
 #: app/templates/polaris/more_info.html:223
 msgid "Pay the Bitcoin Lightning invoice:"
-msgstr ""
+msgstr "Pagar la factura de Bitcoin Lightning:"
 
 #: app/templates/polaris/more_info.html:153
 #: app/templates/polaris/more_info.html:252
@@ -980,7 +1007,7 @@ msgstr ""
 #: app/templates/polaris/more_info.html:702
 #: app/templates/polaris/more_info.html:766
 msgid "For more information please contact"
-msgstr ""
+msgstr "Para obtener más información póngase en contacto"
 
 #: app/templates/polaris/more_info.html:165
 #, python-format
@@ -993,24 +1020,31 @@ msgid ""
 "            %(support_email)s\n"
 "          </a>\n"
 "          "
-msgstr ""
+msgstr "Firma de ruta del banco código yyyy cuenta xxxx - enviar a BP "
+"ventures.<br>\n"
+"\n"          
+Para obtener más información, póngase en contacto \n"
+"          <a href=\"mailto:%(support_email)s\">\n"
+"            %(support_email)s\n"
+"          </a>\n"
+"          "
 
 #: app/templates/polaris/more_info.html:179
 msgid "To deposit the funds, pay this Bitcoin Lightning invoice:"
-msgstr ""
+msgstr "Para depositar los fondos, pague esta factura de Bitcoin Lightning:""
 
 #: app/templates/polaris/more_info.html:182
 #: app/templates/polaris/more_info.html:194
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: app/templates/polaris/more_info.html:183
 msgid "Copy and paste the Bitcoin Lightning invoice as text:"
-msgstr ""
+msgstr "Copie y pegue la factura de Bitcoin Lightning como texto:""
 
 #: app/templates/polaris/more_info.html:195
 msgid "Open checkout page"
-msgstr ""
+msgstr "Abrir página de pago"
 
 #: app/templates/polaris/more_info.html:198
 #, python-format
@@ -1021,19 +1055,24 @@ msgid ""
 "                %(support_email)s\n"
 "              </a>\n"
 "              "
-msgstr ""
+msgstr ""\n"
+"              Para obtener más información, póngase en contacto \n"
+"              <a href=\"mailto:%(support_email)s\">\n"
+"                %(support_email)s\n"
+"              </a>\n"
+"              "
 
 #: app/templates/polaris/more_info.html:209
 msgid "BTCLN payment:"
-msgstr ""
+msgstr "Pago de BTCLN:"
 
 #: app/templates/polaris/more_info.html:215
 msgid "Show alternative payment options"
-msgstr ""
+msgstr "Mostrar opciones de pago alternativas"
 
 #: app/templates/polaris/more_info.html:218
 msgid "Hide alternative payment options"
-msgstr ""
+msgstr "Ocultar opciones de pago alternativas"
 
 #: app/templates/polaris/more_info.html:263
 #, python-format
@@ -1046,7 +1085,14 @@ msgid ""
 "          %(token)s token details are available at\n"
 "          <a href=\"%(url)s\">%(token)s in Etherscan</a>.<br>\n"
 "          "
-msgstr ""
+msgstr "\n"
+"          Enviar a Ethereum ERC20 %(token)s pago a la dirección:\n"
+"          <p style=\"word-break: break-all; font-weight: bold\">%(address)s</"
+"p>\n"
+"          <br>\n"
+"          %(token)s detalles del token disponible en\n"
+"          <a href=\"%(url)s\">%(token)s en Etherscan</a>.<br>\n"
+"          "
 
 #: app/templates/polaris/more_info.html:270
 #: app/templates/polaris/more_info.html:302
@@ -1059,7 +1105,13 @@ msgid ""
 "            %(support_email)s\n"
 "          </a>\n"
 "          "
-msgstr ""
+msgstr "\n"
+"          Para obtener más información, póngase en contacto \n"
+"          <a href=\"mailto:%(support_email)s\">\n"
+"            %(support_email)s\n"
+"          </a>\n"
+"          "
+"
 
 #: app/templates/polaris/more_info.html:281
 #: app/templates/polaris/more_info.html:313
@@ -1068,7 +1120,9 @@ msgid ""
 "\n"
 "          Send %(amount_in)s %(token)s to the address:\n"
 "          "
-msgstr ""
+msgstr "\n"
+"          Enviar %(amount_in)s %(token)s a la dirección:\n"
+"          "
 
 #: app/templates/polaris/more_info.html:297
 #, python-format
@@ -1077,7 +1131,10 @@ msgid ""
 "          %(token)s token details are available in\n"
 "          <a href=\"%(url)s\">BscScan</a>.<br>\n"
 "          "
-msgstr ""
+msgstr "\n"
+"          %(token)s los detalles del token disponible en\n"
+"          <a href=\"%(url)s\">BscScan</a>.<br>\n"
+"          "
 
 #: app/templates/polaris/more_info.html:329
 #, python-format
@@ -1085,7 +1142,9 @@ msgid ""
 "\n"
 "          %(token)s token details are available in\n"
 "          "
-msgstr ""
+msgstr "\n"
+"          %(token)s los detalles del token disponible en\n"
+"          "
 
 #: app/templates/polaris/more_info.html:348
 #: app/templates/polaris/more_info.html:410
@@ -1095,7 +1154,7 @@ msgstr ""
 #: app/templates/polaris/more_info.html:647
 #: app/templates/polaris/more_info.html:711
 msgid "transfer type"
-msgstr ""
+msgstr "Tipo de transferencia"
 
 #: app/templates/polaris/more_info.html:356
 #: app/templates/polaris/more_info.html:418
@@ -1105,7 +1164,7 @@ msgstr ""
 #: app/templates/polaris/more_info.html:655
 #: app/templates/polaris/more_info.html:719
 msgid "destination"
-msgstr ""
+msgstr "Destino"
 
 #: app/templates/polaris/more_info.html:369
 #: app/templates/polaris/more_info.html:434
@@ -1115,7 +1174,7 @@ msgstr ""
 #: app/templates/polaris/more_info.html:671
 #: app/templates/polaris/more_info.html:735
 msgid "Stellar Transaction"
-msgstr ""
+msgstr "Transacción Stellar"
 
 #: app/templates/polaris/more_info.html:384
 #: app/templates/polaris/more_info.html:449
@@ -1123,7 +1182,7 @@ msgstr ""
 #: app/templates/polaris/more_info.html:565
 #: app/templates/polaris/more_info.html:629
 msgid "External Transaction ID"
-msgstr ""
+msgstr "Identificación de transacción externa"
 
 #: app/templates/polaris/more_info.html:399
 #: app/templates/polaris/more_info.html:457
@@ -1133,275 +1192,277 @@ msgstr ""
 #: app/templates/polaris/more_info.html:701
 #: app/templates/polaris/more_info.html:765
 msgid "Funds will be sent to the above destination."
-msgstr ""
+msgstr "Los fondos se enviarán al destino anterior."
 
 #: app/templates/polaris/more_info.html:686
 msgid "Binance Transaction"
-msgstr ""
+msgstr "Transacción Binance"
 
 #: app/templates/polaris/more_info.html:750
 msgid "Tron Transaction"
-msgstr ""
+msgstr "Transacción Tron"
 
 #: app/templates/polaris/more_info.html:780
 msgid ""
 "Once you've followed the above instructions, you can close this window and "
 "track the transaction from within your wallet."
-msgstr ""
-
+msgstr "Una vez que haya seguido las instrucciones anteriores, puede cerrar esta ventana y "
+"rastrear la transacción desde su billetera."
+"
 #: app/templates/polaris/more_info.html:782
 msgid ""
 "This window can now be closed and the transaction can be tracked from within "
 "your wallet."
-msgstr ""
+msgstr ""Esta ventana ahora se puede cerrar y la transacción se puede rastrear desde dentro "
+"de tu billetera."
 
 #: app/templates/polaris/withdraw.html:40
 msgid "Scan the Bitcoin Ligthtning Invoice QR Code:"
-msgstr ""
+msgstr "Escanee el código QR de la factura de Bitcoin Ligthtning:"
 
 #: app/templates/polaris/withdraw.html:42
 msgid "To enable QR Code scan, allow camera access."
-msgstr ""
+msgstr "Para habilitar el escaneo de códigos QR, permita el acceso a la cámara."
 
 #: app/templates/polaris/withdraw.html:46
 msgid "Or scan a file containing the QR Code:"
-msgstr ""
+msgstr "O escanee un archivo que contenga el código QR:"
 
 #: app/templates/polaris/withdraw.html:52
 msgid "Or enter the Bitcoin Lightning Invoice as text (lnbc1*):"
-msgstr ""
+msgstr "O ingrese la factura de Bitcoin Lightning como texto (lnbc1*):"
 
 #: app/templates/polaris/withdraw.html:87
 #: app/templates/polaris/withdraw.html:127
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: app/templates/transaction_error.html:8
 #: app/templates/transaction_error.html:31
 msgid " Transaction Error"
-msgstr ""
+msgstr "Error de transacción"
 
 #: app/templates/transaction_error.html:39
 #: app/templates/withdrawal_received.html:61
 msgid "Transaction information"
-msgstr ""
+msgstr "Información de la transacción"
 
 #: app/templates/transaction_error.html:42
 #: app/templates/transactions_error.html:35
 #: app/templates/transactions_insufficient_funds.html:35
 #: app/templates/withdrawal_received.html:100
 msgid "Polaris Transaction ID"
-msgstr ""
+msgstr "Identificación de transacción Polaris"
 
 #: app/templates/transaction_error.html:45
 msgid "Kind"
-msgstr ""
+msgstr "Tipo"
 
 #: app/templates/transaction_error.html:48
 #: app/templates/withdrawal_received.html:70
 msgid "Asset code"
-msgstr ""
+msgstr "Código de activación"
 
 #: app/templates/transaction_error.html:51
 msgid "Amount In"
-msgstr ""
+msgstr "Cantidad que ingresa"
 
 #: app/templates/transaction_error.html:57
 msgid "Amount Out"
-msgstr ""
+msgstr "Cantidad que retira"
 
 #: app/templates/transaction_error.html:60
 msgid "To address"
-msgstr ""
+msgstr "A la dirección"
 
 #: app/templates/transaction_error.html:63
 #: app/templates/withdrawal_received.html:91
 msgid "Asset issuer"
-msgstr ""
+msgstr "Emisor de activos"
 
 #: app/templates/transaction_error.html:66
 #: app/templates/withdrawal_received.html:94
 msgid "Distribution account"
-msgstr ""
+msgstr "Cuenta de distribución"
 
 #: app/templates/transaction_error.html:70
 #: app/templates/withdrawal_received.html:97
 msgid "Stellar Transaction ID"
-msgstr ""
+msgstr "Identificación de transacción Stellar"
 
 #: app/templates/transaction_error.html:74
 #: app/templates/withdrawal_received.html:64
 msgid "Customer email"
-msgstr ""
+msgstr "Correo electrónico del cliente"
 
 #: app/templates/transaction_error.html:77
 #: app/templates/withdrawal_received.html:67
 msgid "Customer RUT"
-msgstr ""
+msgstr "RUT del cliente"
 
 #: app/templates/transactions_error.html:8
 #: app/templates/transactions_error.html:31
 msgid " Transactions with status Error"
-msgstr ""
+msgstr "Transacciones con estado Error"
 
 #: app/templates/transactions_insufficient_funds.html:8
 #: app/templates/transactions_insufficient_funds.html:31
 msgid " Transactions with Insufficient Funds"
-msgstr ""
+msgstr "Transacciones con fondos insuficientes"
 
 #: app/templates/withdrawal_received.html:9
 #: app/templates/withdrawal_received.html:36
 msgid "CLPX Withdrawal received that requires your attention in next 24 hours"
-msgstr ""
+msgstr "Retiro de CLPX recibido que requiere su atención en las próximas 24 horas"
 
 #: app/templates/withdrawal_received.html:11
 #: app/templates/withdrawal_received.html:38
 msgid " Withdrawal received"
-msgstr ""
+msgstr "Retiro recibido"
 
 #: app/templates/withdrawal_received.html:73
 msgid "Amount received from the user"
-msgstr ""
+msgstr "Cantidad recibida del usuario"
 
 #: app/templates/withdrawal_received.html:79
 msgid "Amount to be sent to the user"
-msgstr ""
+msgstr "Cantidad a enviar al usuario"
 
 #: app/templates/withdrawal_received.html:82
 msgid "Destination"
-msgstr ""
+msgstr "Destino"
 
 #: app/templates/withdrawal_received.html:88
 msgid "Additional transaction information"
-msgstr ""
+msgstr "Información adicional a la transacción"
 
 #: app/validation.py:72
 msgid "Invalid pubkey"
-msgstr ""
+msgstr "Clave pubkey inválida"
 
 #: app/validation.py:77
 msgid "Invalid country"
-msgstr ""
+msgstr "País inválido"
 
 #: app/validation.py:82
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Fono inválido"
 
 #: app/validation.py:89
 msgid "Invalid date"
-msgstr ""
+msgstr "Fecha inválida"
 
 #: app/validation.py:96
 msgid "Invalid IBAN"
-msgstr ""
+msgstr "IBAN inválido"
 
 #: app/validation.py:104
 msgid "Invalid Bitcoin address"
-msgstr ""
+msgstr "Dirección bitcoin inválida"
 
 #: app/validation.py:111
 msgid "Invalid BOLT11 address"
-msgstr ""
+msgstr "Dirección BOLT11 inválida"
 
 #: app/validation.py:115
 msgid "Invalid Ethereum address"
-msgstr ""
+msgstr "Dirección Ethereum inválida"
 
 #: app/validation.py:119
 msgid "Invalid first name"
-msgstr ""
+msgstr "Primer nombre inválido"
 
 #: app/validation.py:123
 msgid "Invalid last name"
-msgstr ""
+msgstr "Apellido inválido"
 
 #: app/validation.py:127
 msgid "Invalid organization name"
-msgstr ""
+msgstr "Nombre de la organización inválida"
 
 #: app/validation.py:131
 msgid "Invalid city"
-msgstr ""
+msgstr "Ciudad inválida"
 
 #: app/validation.py:135
 msgid "Invalid postal code"
-msgstr ""
+msgstr "Código postal inválido"
 
 #: app/validation.py:139
 msgid "Invalid address"
-msgstr ""
+msgstr "Dirección inválida"
 
 #: app/validation.py:143
 msgid "Invalid email address"
-msgstr ""
+msgstr "Correo electrónico inválido"
 
 #: app/validation.py:148
 msgid "Invalid RUT"
-msgstr ""
+msgstr "RUT inválido"
 
 #: app/validation.py:152
 msgid "Invalid bank name"
-msgstr ""
+msgstr "Nombre de banco inválido"
 
 #: app/validation.py:155
 msgid "Invalid bank account number"
-msgstr ""
+msgstr "Número de cuenta inválido"
 
 #: app/validation.py:178
 #, python-format
 msgid "Amount %s is lower than the minimum amount: %s"
-msgstr ""
+msgstr "Monto %s es menor al monto mínimo permitido: %s"
 
 #: app/validation.py:186
 #, python-format
 msgid "Amount %s is higher than the maximum amount %s"
-msgstr ""
+msgstr "Monto %s es mayor al máximo permitido %s"
 
 #: apps/chaingateway/models.py:64 apps/tokengateway/models.py:44
 msgid "deposit"
-msgstr ""
+msgstr "Deposito"
 
 #: apps/chaingateway/models.py:65 apps/tokengateway/models.py:45
 msgid "withdrawal"
-msgstr ""
+msgstr "Retiro"
 
 #: apps/chaingateway/models.py:85 apps/clp/models.py:25 apps/usd/models.py:26
 msgid "Amount in"
-msgstr ""
+msgstr "Monto de ingreso"
 
 #: apps/clp/models.py:10 apps/coinbase_web/models.py:10 apps/usd/models.py:10
 msgid "Pending"
-msgstr ""
+msgstr "Pendiente"
 
 #: apps/clp/models.py:11 apps/coinbase_web/models.py:11 apps/usd/models.py:11
 msgid "Received"
-msgstr ""
+msgstr "Recibido"
 
 #: apps/clp/models.py:12 apps/coinbase_web/models.py:13 apps/usd/models.py:12
 msgid "Sent"
-msgstr ""
+msgstr "Enviado"
 
 #: apps/clp/models.py:17 apps/usd/models.py:18
 msgid "Payment status"
-msgstr ""
+msgstr "Estado del pago"
 
 #: apps/clp/models.py:20 apps/clp/models.py:21 apps/usd/models.py:21
 #: apps/usd/models.py:22
 msgid "External memo"
-msgstr ""
+msgstr "Nota externa"
 
 #: apps/clp/models.py:29 apps/usd/models.py:30
 msgid "Amount out"
-msgstr ""
+msgstr "Cantidad que sale"
 
 #: apps/clp/models.py:32 apps/clp/models.py:33
 msgid "External reference"
-msgstr ""
+msgstr "Referencia externa"
 
 #: apps/coinbase_web/models.py:12
 msgid "Processing"
-msgstr ""
+msgstr "Procesando"
 
 #: apps/coinbase_web/models.py:14 apps/usd/models.py:13
 msgid "Error"
-msgstr ""
+msgstr "Error"
