@@ -39,7 +39,8 @@ msgstr "amount_out se requiere si el estado del pago es enviado"
 msgid ""
 "Make sure to configure the <a href=\"%(link)s\">%(label)s</a> for asset "
 "%(code)s"
-msgstr "Asegúrate de configurar el <a href=\"%(link)s\">%(label)s</a> para activarlo "
+msgstr ""
+"Asegúrate de configurar el <a href=\"%(link)s\">%(label)s</a> para código de activo %(code)s"
 
 #: app/integrations/binance/deposit.py:44
 #: app/integrations/binance/withdrawal.py:37 app/integrations/btc/deposit.py:41
@@ -56,7 +57,8 @@ msgstr "Falta o inválido \"type\""
 msgid ""
 "Send a Binance %(token)s payment to the address %(address)s. Token "
 "information available at %(url)s"
-msgstr "Envía a Binance %(token)s el pago a la dirección %(address)s. Token"
+msgstr ""
+"Envía a Binance %(token)s el pago a la dirección %(address)s. Token"
 "información disponible en %(url)s"
 
 #: app/integrations/binance/withdrawal.py:32
@@ -103,7 +105,8 @@ msgstr "\"dest\" Debe contener una dirección de Bitcoin valida"
 msgid ""
 "Open the checkout page: %(checkout)s or Pay the Bitcoin Lightning invoice: "
 "%(payreq)s"
-msgstr "Abrir la página de pago: %(checkout)s o pagar la factura de Bitcoin Lightning:"
+msgstr ""
+"Abrir la página de pago: %(checkout)s o pagar la factura de Bitcoin Lightning: %(payreq)s"
 
 #: app/integrations/btcln/deposit.py:157
 #, python-format
@@ -197,7 +200,7 @@ msgstr "Este campo es requisito"
 #: app/integrations/forms.py:198 app/integrations/forms.py:242
 #, python-format
 msgid "RUT (Rol Único Tributario) <a class=\"infolink\" href=\"%(link)s\"></a>"
-msgstr ""RUT (Rol Único Tributario) <a class=\"infolink\" href=\"%(link)s\"></a>"
+msgstr "RUT (Rol Único Tributario) <a class=\"infolink\" href=\"%(link)s\"></a>"
 
 #: app/integrations/forms.py:203 app/integrations/forms.py:247
 msgid "RUT (Rol Único Tributario) - 8 or 9-digit number"
@@ -378,7 +381,8 @@ msgstr "Enviar"
 msgid ""
 "Time range from now to the past, in seconds, to consider when checking the "
 "rate limits"
-msgstr ""Rango de tiempo desde ahora hasta el pasado, en segundos, a considerar al verificar el "
+msgstr ""
+"Rango de tiempo desde ahora hasta el pasado, en segundos, a considerar al verificar el "
 "Límites de tarifa"
 
 #: app/models.py:266
@@ -860,8 +864,11 @@ msgid ""
 "              Make sure to attach the note <span style=\"color: #ff9100\">"
 "%(note)s</span> to the transfer.\n"
 "              "
-msgstr "Asegúrate de adjuntar la nota <span style=\"color: #ff9100\">"
+msgstr ""
+"\n"
+"              Asegúrate de adjuntar la nota <span style=\"color: #ff9100\">"
 "%(note)s</span> a la transferencia.\n"
+"              "
 
 #: app/templates/polaris/more_info.html:80
 #, python-format
@@ -874,7 +881,9 @@ msgid ""
 "              %(support_email)s\n"
 "            </a>\n"
 "            "
-msgstr "Fondos disponibles dentro de %(eta)s posteriores a la recepción de la transferencia. "
+msgstr ""
+"\n"
+"Fondos disponibles dentro de %(eta)s posteriores a la recepción de la transferencia. "
 "<br>\n"
 "            Para obtener más información, póngase en contacto \n"
 "            <a href=\"mailto:%(support_email)s\">\n"
@@ -899,7 +908,8 @@ msgid ""
 "                %(support_email)s\n"
 "              </a>\n"
 "              "
-msgstr ""\n"
+msgstr ""
+"\n"
 "              Envíe un pago de Bitcoin a la dirección: <br>\n"
 "              <span style=\"font-weight: bold; word-break: break-all;\">\n"
 "              %(address)s\n"
@@ -1020,10 +1030,11 @@ msgid ""
 "            %(support_email)s\n"
 "          </a>\n"
 "          "
-msgstr "Firma de ruta del banco código yyyy cuenta xxxx - enviar a BP "
+msgstr ""
+"\n"
+"          Firma de ruta del banco código yyyy cuenta xxxx - enviar a BP "
 "ventures.<br>\n"
-"\n"          
-Para obtener más información, póngase en contacto \n"
+"          Para obtener más información, póngase en contacto \n"
 "          <a href=\"mailto:%(support_email)s\">\n"
 "            %(support_email)s\n"
 "          </a>\n"
@@ -1031,7 +1042,7 @@ Para obtener más información, póngase en contacto \n"
 
 #: app/templates/polaris/more_info.html:179
 msgid "To deposit the funds, pay this Bitcoin Lightning invoice:"
-msgstr "Para depositar los fondos, pague esta factura de Bitcoin Lightning:""
+msgstr "Para depositar los fondos, pague esta factura de Bitcoin Lightning:"
 
 #: app/templates/polaris/more_info.html:182
 #: app/templates/polaris/more_info.html:194
@@ -1040,7 +1051,7 @@ msgstr "o"
 
 #: app/templates/polaris/more_info.html:183
 msgid "Copy and paste the Bitcoin Lightning invoice as text:"
-msgstr "Copie y pegue la factura de Bitcoin Lightning como texto:""
+msgstr "Copie y pegue la factura de Bitcoin Lightning como texto:"
 
 #: app/templates/polaris/more_info.html:195
 msgid "Open checkout page"
@@ -1055,7 +1066,8 @@ msgid ""
 "                %(support_email)s\n"
 "              </a>\n"
 "              "
-msgstr ""\n"
+msgstr ""
+"\n"
 "              Para obtener más información, póngase en contacto \n"
 "              <a href=\"mailto:%(support_email)s\">\n"
 "                %(support_email)s\n"
@@ -1105,13 +1117,14 @@ msgid ""
 "            %(support_email)s\n"
 "          </a>\n"
 "          "
-msgstr "\n"
+msgstr ""
+"\n"
 "          Para obtener más información, póngase en contacto \n"
 "          <a href=\"mailto:%(support_email)s\">\n"
 "            %(support_email)s\n"
 "          </a>\n"
 "          "
-"
+"          "
 
 #: app/templates/polaris/more_info.html:281
 #: app/templates/polaris/more_info.html:313
@@ -1206,14 +1219,16 @@ msgstr "Transacción Tron"
 msgid ""
 "Once you've followed the above instructions, you can close this window and "
 "track the transaction from within your wallet."
-msgstr "Una vez que haya seguido las instrucciones anteriores, puede cerrar esta ventana y "
+msgstr ""
+"Una vez que haya seguido las instrucciones anteriores, puede cerrar esta ventana y "
 "rastrear la transacción desde su billetera."
-"
+
 #: app/templates/polaris/more_info.html:782
 msgid ""
 "This window can now be closed and the transaction can be tracked from within "
 "your wallet."
-msgstr ""Esta ventana ahora se puede cerrar y la transacción se puede rastrear desde dentro "
+msgstr ""
+"Esta ventana ahora se puede cerrar y la transacción se puede rastrear desde dentro "
 "de tu billetera."
 
 #: app/templates/polaris/withdraw.html:40
@@ -1261,7 +1276,7 @@ msgstr "Tipo"
 #: app/templates/transaction_error.html:48
 #: app/templates/withdrawal_received.html:70
 msgid "Asset code"
-msgstr "Código de activación"
+msgstr "Código de activo"
 
 #: app/templates/transaction_error.html:51
 msgid "Amount In"
