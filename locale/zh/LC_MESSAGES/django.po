@@ -1,0 +1,1416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-23 18:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: app/admin.py:19
+msgid "Personal info"
+msgstr ""
+
+#: app/admin.py:20
+msgid "Permissions"
+msgstr ""
+
+#: app/admin.py:40 app/admin.py:149 app/admin.py:183
+msgid "amount_in is required if payment status is received"
+msgstr ""
+
+#: app/admin.py:48 app/admin.py:157 app/admin.py:191
+msgid "amount_out is required if payment status is sent"
+msgstr ""
+
+#: app/admin.py:288
+#, python-format
+msgid ""
+"Make sure to configure the <a href=\"%(link)s\">%(label)s</a> for asset "
+"%(code)s"
+msgstr ""
+
+#: app/integrations/binance/deposit.py:44
+#: app/integrations/binance/withdrawal.py:37 app/integrations/btc/deposit.py:41
+#: app/integrations/btc/withdrawal.py:34 app/integrations/btcln/deposit.py:40
+#: app/integrations/btcln/withdrawal.py:36 app/integrations/clp/deposit.py:34
+#: app/integrations/ethereum/deposit.py:34
+#: app/integrations/ethereum/withdrawal.py:42
+#: app/integrations/tron/deposit.py:44 app/integrations/tron/withdrawal.py:37
+msgid "Missing or invalid \"type\""
+msgstr ""
+
+#: app/integrations/binance/deposit.py:114
+#, python-format
+msgid ""
+"Send a Binance %(token)s payment to the address %(address)s. Token "
+"information available at %(url)s"
+msgstr ""
+
+#: app/integrations/binance/withdrawal.py:32
+msgid "\"dest\" must contain a valid Binance address"
+msgstr ""
+
+#: app/integrations/btc/deposit.py:47 app/integrations/btcln/deposit.py:46
+#: app/integrations/clp/deposit.py:42
+#, python-format
+msgid "Invalid amount - cannot have more than %(places)s decimal places"
+msgstr ""
+
+#: app/integrations/btc/deposit.py:54 app/integrations/btcln/deposit.py:53
+#: app/integrations/clp/deposit.py:49
+msgid "Missing or invalid \"amount\""
+msgstr ""
+
+#: app/integrations/btc/deposit.py:98
+#, python-format
+msgid "Send a Bitcoin payment to the address %(address)s"
+msgstr ""
+
+#: app/integrations/btc/deposit.py:137 app/integrations/btcln/deposit.py:150
+#, python-format
+msgid "Option 1: Open the checkout page: %(checkout)s. "
+msgstr ""
+
+#: app/integrations/btc/deposit.py:144
+#, python-format
+msgid "Option 2: Send the BTC payment to the BTC address %(onchain)s. "
+msgstr ""
+
+#: app/integrations/btc/deposit.py:150
+#, python-format
+msgid "Option 3: Pay the Bitcoin Lightning invoice: %(offchain)s. "
+msgstr ""
+
+#: app/integrations/btc/withdrawal.py:40
+msgid "\"dest\" must contain a valid Bitcoin address"
+msgstr ""
+
+#: app/integrations/btcln/deposit.py:97
+#, python-format
+msgid ""
+"Open the checkout page: %(checkout)s or Pay the Bitcoin Lightning invoice: "
+"%(payreq)s"
+msgstr ""
+
+#: app/integrations/btcln/deposit.py:157
+#, python-format
+msgid "Option 2: Pay the Bitcoin Lightning invoice: %(offchain)s. "
+msgstr ""
+
+#: app/integrations/btcln/deposit.py:161
+#, python-format
+msgid "Option 3: Send the BTC payment to the BTC address %(onchain)s. "
+msgstr ""
+
+#: app/integrations/btcln/withdrawal.py:43
+msgid "\"dest\" must be a valid Lightning BOLT11 invoice address"
+msgstr ""
+
+#: app/integrations/btcln/withdrawal.py:46 app/integrations/forms.py:71
+msgid "Invoices without an amount are not supported"
+msgstr ""
+
+#: app/integrations/clp/deposit.py:88
+#, python-format
+msgid ""
+"Send a transfer to our bank account with this note: %(external_memo)s | "
+"Recipient: %(recipient)s | Bank account: %(bank_account)s | Bank: %(bank)s | "
+"Funds available within %(hours)s hours."
+msgstr ""
+
+#: app/integrations/clp/rails.py:57
+msgid "amount_in is None"
+msgstr ""
+
+#: app/integrations/clp/rails.py:64
+#, python-format
+msgid "amount_in is not between %(min_amount)s and %(max_amount)s"
+msgstr ""
+
+#: app/integrations/clp/withdrawal.py:33
+msgid "Missing or invalid value for \"type\""
+msgstr ""
+
+#: app/integrations/clp/withdrawal.py:73
+#, python-format
+msgid "Invalid value for 'tax_id': %(tax_id)s"
+msgstr ""
+
+#: app/integrations/customers.py:81
+msgid "account differs from authenticated account"
+msgstr ""
+
+#: app/integrations/ethereum/deposit.py:79
+#, python-format
+msgid ""
+"Send a Ethereum ERC20 %(token)s payment to the address %(address)s. Token "
+"information available at %(url)s"
+msgstr ""
+
+#: app/integrations/ethereum/withdrawal.py:37
+msgid "\"dest\" must contain a valid Ethereum address"
+msgstr ""
+
+#: app/integrations/forms.py:38
+msgid "Will not be shared with 3rd parties"
+msgstr ""
+
+#: app/integrations/forms.py:44 app/integrations/forms.py:45
+#: app/integrations/info.py:51
+msgid "Destination Bitcoin address"
+msgstr ""
+
+#: app/integrations/forms.py:69
+msgid "Invalid Bitcoin Lightning BOLT11 invoice address"
+msgstr ""
+
+#: app/integrations/forms.py:106
+msgid "Full address"
+msgstr ""
+
+#: app/integrations/forms.py:112 app/integrations/forms.py:137
+#: app/integrations/forms.py:264
+msgid "Ex: +5511999998888"
+msgstr ""
+
+#: app/integrations/forms.py:149 app/integrations/forms.py:154
+#: app/integrations/forms.py:288 app/integrations/forms.py:293
+msgid "This field is required"
+msgstr ""
+
+#: app/integrations/forms.py:198 app/integrations/forms.py:242
+#, python-format
+msgid "RUT (Rol Único Tributario) <a class=\"infolink\" href=\"%(link)s\"></a>"
+msgstr ""
+
+#: app/integrations/forms.py:203 app/integrations/forms.py:247
+msgid "RUT (Rol Único Tributario) - 8 or 9-digit number"
+msgstr ""
+
+#: app/integrations/forms.py:326 app/integrations/forms.py:336
+#: app/integrations/forms.py:437 app/integrations/forms.py:447
+msgid "Transfer type"
+msgstr ""
+
+#: app/integrations/forms.py:327 app/integrations/forms.py:337
+#: app/integrations/forms.py:438 app/integrations/forms.py:448
+msgid "Deposit transfer method"
+msgstr ""
+
+#: app/integrations/forms.py:328 app/integrations/forms.py:338
+#: app/integrations/forms.py:439 app/integrations/forms.py:449 app/models.py:60
+#: app/templates/polaris/more_info.html:59
+msgid "Bank account"
+msgstr ""
+
+#: app/integrations/forms.py:391 app/integrations/forms.py:392
+msgid "Destination Ethereum address"
+msgstr ""
+
+#: app/integrations/forms.py:452
+msgid "Destination bank account number"
+msgstr ""
+
+#: app/integrations/forms.py:453
+msgid "Destination Bank account number"
+msgstr ""
+
+#: app/integrations/forms.py:501 app/integrations/forms.py:502
+msgid "Destination Binance address"
+msgstr ""
+
+#: app/integrations/forms.py:518 app/integrations/forms.py:519
+msgid "Destination Tron address"
+msgstr ""
+
+#: app/integrations/info.py:14
+#, python-format
+msgid "Amount (in CLPX) to deposit - maximum %(places)s decimal places allowed"
+msgstr ""
+
+#: app/integrations/info.py:21 app/integrations/info.py:61
+#: app/integrations/info.py:79 app/integrations/info.py:149
+#: app/integrations/info.py:167
+msgid "Deposit type"
+msgstr ""
+
+#: app/integrations/info.py:29 app/integrations/info.py:117
+msgid "Destination bank account"
+msgstr ""
+
+#: app/integrations/info.py:40
+#, python-format
+msgid "Amount (in BTC) to deposit - maximum %(places)s decimal places allowed"
+msgstr ""
+
+#: app/integrations/info.py:69 app/integrations/info.py:139
+msgid "Destination ethereum address"
+msgstr ""
+
+#: app/integrations/info.py:83 app/integrations/info.py:102 app/models.py:314
+msgid "Given or first name"
+msgstr ""
+
+#: app/integrations/info.py:86 app/integrations/info.py:105 app/models.py:305
+#: app/models.py:322
+msgid "Family or last name"
+msgstr ""
+
+#: app/integrations/info.py:89 app/integrations/info.py:108 app/models.py:367
+msgid ""
+"Entire address (country, state, postal code, street address, etc...) as a "
+"multi-line string"
+msgstr ""
+
+#: app/integrations/info.py:92 app/integrations/info.py:111 app/models.py:375
+msgid "Mobile phone number with country code, in E.164 format"
+msgstr ""
+
+#: app/integrations/info.py:95 app/integrations/info.py:114 app/models.py:382
+#: app/models.py:383
+msgid "Email address"
+msgstr ""
+
+#: app/integrations/info.py:128
+#, python-format
+msgid ""
+"Amount (in BTCLN) to deposit - maximum %(places)s decimal places allowed"
+msgstr ""
+
+#: app/integrations/info.py:157
+msgid "Destination binance address"
+msgstr ""
+
+#: app/integrations/info.py:175
+msgid "Destination tron address"
+msgstr ""
+
+#: app/integrations/sep31.py:58
+msgid "Invalid receiver_id"
+msgstr ""
+
+#: app/integrations/transactions.py:116
+msgid "Stellar Deposit"
+msgstr ""
+
+#: app/integrations/transactions.py:276
+msgid "Stellar Withdrawal"
+msgstr ""
+
+#: app/integrations/tron/deposit.py:114
+#, python-format
+msgid ""
+"Send a Tron %(token)s payment to the address %(address)s. Token information "
+"available at %(url)s"
+msgstr ""
+
+#: app/integrations/tron/withdrawal.py:32
+msgid "\"dest\" must contain a valid Tron address"
+msgstr ""
+
+#: app/integrations/usd/deposit.py:70
+msgid "Signature bank routing code yyyy account xxxx - send to BP ventures"
+msgstr ""
+
+#: app/integrations/usd/withdrawal.py:33
+msgid "Missing or invalid \"dest\""
+msgstr ""
+
+#: app/integrations/utils.py:363 app/integrations/utils.py:376
+msgid "RUT (Rol Único Tributario)"
+msgstr ""
+
+#: app/models.py:59 apps/clp/models.py:9 apps/coinbase_web/models.py:9
+#: apps/usd/models.py:9
+msgid "Unknown"
+msgstr ""
+
+#: app/models.py:61
+msgid "Bitcoin"
+msgstr ""
+
+#: app/models.py:62 apps/chaingateway/models.py:19
+msgid "Ethereum"
+msgstr ""
+
+#: app/models.py:63
+msgid "Lightning"
+msgstr ""
+
+#: app/models.py:64 apps/chaingateway/models.py:20
+msgid "Binance"
+msgstr ""
+
+#: app/models.py:65 apps/chaingateway/models.py:21
+msgid "Tron"
+msgstr ""
+
+#: app/models.py:208
+msgid "Deposit"
+msgstr ""
+
+#: app/models.py:209
+msgid "Withdrawal"
+msgstr ""
+
+#: app/models.py:210
+msgid "Send"
+msgstr ""
+
+#: app/models.py:239 app/models.py:251
+msgid ""
+"Time range from now to the past, in seconds, to consider when checking the "
+"rate limits"
+msgstr ""
+
+#: app/models.py:266
+msgid "text"
+msgstr ""
+
+#: app/models.py:267
+msgid "id"
+msgstr ""
+
+#: app/models.py:268
+msgid "hash"
+msgstr ""
+
+#: app/models.py:271
+msgid "Person"
+msgstr ""
+
+#: app/models.py:272
+msgid "Company"
+msgstr ""
+
+#: app/models.py:278 apps/clp/models.py:36
+msgid "Notes"
+msgstr ""
+
+#: app/models.py:297
+msgid "SEP-31 enabled"
+msgstr ""
+
+#: app/models.py:298
+msgid "Indicates whether the customer can use SEP-31 or not"
+msgstr ""
+
+#: app/models.py:304
+msgid "Account type"
+msgstr ""
+
+#: app/models.py:314
+msgid "First name"
+msgstr ""
+
+#: app/models.py:321
+msgid "Last name"
+msgstr ""
+
+#: app/models.py:328
+msgid "Additional name"
+msgstr ""
+
+#: app/models.py:329
+msgid "Middle name or other additional name"
+msgstr ""
+
+#: app/models.py:336
+msgid "Address country code"
+msgstr ""
+
+#: app/models.py:337
+msgid "Country code for current address"
+msgstr ""
+
+#: app/models.py:343
+msgid "State or province"
+msgstr ""
+
+#: app/models.py:344
+msgid "Name of state/province/region/prefecture"
+msgstr ""
+
+#: app/models.py:350
+msgid "City"
+msgstr ""
+
+#: app/models.py:351
+msgid "Name of city/town"
+msgstr ""
+
+#: app/models.py:358
+msgid "Postal code"
+msgstr ""
+
+#: app/models.py:359
+msgid "Postal or other code identifying user's locale"
+msgstr ""
+
+#: app/models.py:366
+msgid "Address"
+msgstr ""
+
+#: app/models.py:374
+msgid "Mobile number"
+msgstr ""
+
+#: app/models.py:390
+msgid "Birth date"
+msgstr ""
+
+#: app/models.py:391
+msgid "Date of birth, e.g. 1976-07-04"
+msgstr ""
+
+#: app/models.py:397
+msgid "Birth place"
+msgstr ""
+
+#: app/models.py:398
+msgid "Place of birth (city, state, country; as on passport)"
+msgstr ""
+
+#: app/models.py:404
+msgid "Birth country code"
+msgstr ""
+
+#: app/models.py:405
+msgid "ISO Code of country of birth"
+msgstr ""
+
+#: app/models.py:411
+msgid "Bank account number"
+msgstr ""
+
+#: app/models.py:412
+msgid "Number identifying bank account"
+msgstr ""
+
+#: app/models.py:418
+msgid "Bank number"
+msgstr ""
+
+#: app/models.py:419
+msgid ""
+"Number identifying bank in national banking system (routing number in US)"
+msgstr ""
+
+#: app/models.py:425
+msgid "Bank name"
+msgstr ""
+
+#: app/models.py:426
+msgid "Name identifying bank in national banking system"
+msgstr ""
+
+#: app/models.py:432
+msgid "Bank phone number"
+msgstr ""
+
+#: app/models.py:433
+msgid "Phone number with country code for bank"
+msgstr ""
+
+#: app/models.py:439
+msgid "Tax ID"
+msgstr ""
+
+#: app/models.py:440
+msgid "Tax identifier of user in their country (social security number in US)"
+msgstr ""
+
+#: app/models.py:446
+msgid "TAX ID name"
+msgstr ""
+
+#: app/models.py:447
+msgid "Name of the tax ID (SSN or ITIN in the US)"
+msgstr ""
+
+#: app/models.py:453
+msgid "Occupation"
+msgstr ""
+
+#: app/models.py:454
+msgid "Occupation ISCO code"
+msgstr ""
+
+#: app/models.py:460
+msgid "Employer name"
+msgstr ""
+
+#: app/models.py:461
+msgid "Name of employer"
+msgstr ""
+
+#: app/models.py:467
+msgid "Employer address"
+msgstr ""
+
+#: app/models.py:468
+msgid "Address of employer"
+msgstr ""
+
+#: app/models.py:474
+msgid "Language code"
+msgstr ""
+
+#: app/models.py:475
+msgid "Primary language"
+msgstr ""
+
+#: app/models.py:481
+msgid "ID type"
+msgstr ""
+
+#: app/models.py:482
+msgid "passport, drivers_license, id_card, etc..."
+msgstr ""
+
+#: app/models.py:489
+msgid "ID country code"
+msgstr ""
+
+#: app/models.py:490
+msgid "Country issuing passport or photo ID as ISO 3166-1 alpha-3 code"
+msgstr ""
+
+#: app/models.py:496 app/models.py:497
+msgid "ID issue date"
+msgstr ""
+
+#: app/models.py:504 app/models.py:505
+msgid "ID expiration date"
+msgstr ""
+
+#: app/models.py:511
+msgid "ID number"
+msgstr ""
+
+#: app/models.py:512
+msgid "Passport or ID number"
+msgstr ""
+
+#: app/models.py:518
+msgid "Photo ID front"
+msgstr ""
+
+#: app/models.py:519
+msgid "Image of front of user's photo ID or passport"
+msgstr ""
+
+#: app/models.py:525
+msgid "Photo ID back"
+msgstr ""
+
+#: app/models.py:526
+msgid "Image of back of user's photo ID or passport"
+msgstr ""
+
+#: app/models.py:532
+msgid "Notary approval of photo ID"
+msgstr ""
+
+#: app/models.py:533
+msgid "Image of notary's approval of photo ID or passport"
+msgstr ""
+
+#: app/models.py:539
+msgid "IP address"
+msgstr ""
+
+#: app/models.py:540
+msgid "IP address of customer's computer"
+msgstr ""
+
+#: app/models.py:546
+msgid "Photo proof residence"
+msgstr ""
+
+#: app/models.py:547
+msgid ""
+"Image of a utility bill, bank statement or similar with the user's name and "
+"address"
+msgstr ""
+
+#: app/models.py:556
+msgid "Organization name"
+msgstr ""
+
+#: app/models.py:557
+msgid "Full organization name as on the incorporation papers"
+msgstr ""
+
+#: app/models.py:563 app/models.py:564
+msgid "Organization VAT number"
+msgstr ""
+
+#: app/models.py:570 app/models.py:571
+msgid "Organization registration number"
+msgstr ""
+
+#: app/models.py:577 app/models.py:578
+msgid "Organization registered address"
+msgstr ""
+
+#: app/models.py:584 app/models.py:585
+msgid "Organization shareholder number"
+msgstr ""
+
+#: app/models.py:591
+msgid "Organization shareholder name"
+msgstr ""
+
+#: app/models.py:592
+msgid ""
+"Can be an organization or a person and should be queried recursively up to "
+"the ultimate beneficial owners (with KYC information for natural persons "
+"such as above)"
+msgstr ""
+
+#: app/models.py:598
+msgid "Organization photo incorporation doc"
+msgstr ""
+
+#: app/models.py:599
+msgid "Image of incorporation documents"
+msgstr ""
+
+#: app/models.py:605
+msgid "Organization photo proof address"
+msgstr ""
+
+#: app/models.py:606
+msgid ""
+"Image of a utility bill, bank statement with the organization's name and "
+"address"
+msgstr ""
+
+#: app/models.py:612
+msgid "Organization address country code"
+msgstr ""
+
+#: app/models.py:613
+msgid "country code for current address"
+msgstr ""
+
+#: app/models.py:619
+msgid "Organization state or province"
+msgstr ""
+
+#: app/models.py:620
+msgid "name of state/province/region/prefecture"
+msgstr ""
+
+#: app/models.py:626
+msgid "Organization city"
+msgstr ""
+
+#: app/models.py:627
+msgid "name of city/town"
+msgstr ""
+
+#: app/models.py:633
+msgid "Organization postal code"
+msgstr ""
+
+#: app/models.py:634
+msgid "Postal or other code identifying organization's locale"
+msgstr ""
+
+#: app/models.py:640
+msgid "Organization director name"
+msgstr ""
+
+#: app/models.py:641
+msgid ""
+"Organization registered managing director (the rest of the information "
+"should be queried as an individual using the fields above)"
+msgstr ""
+
+#: app/models.py:647 app/models.py:648
+msgid "Organization website"
+msgstr ""
+
+#: app/models.py:654
+msgid "Organization email"
+msgstr ""
+
+#: app/models.py:655
+msgid "Organization contact email"
+msgstr ""
+
+#: app/models.py:661
+msgid "Organization phone"
+msgstr ""
+
+#: app/models.py:662
+msgid "Organization contact phone"
+msgstr ""
+
+#: app/settings.py:171
+msgid "English"
+msgstr ""
+
+#: app/settings.py:172
+msgid "Spanish"
+msgstr ""
+
+#: app/settings.py:173
+msgid "Chinese"
+msgstr ""
+
+#: app/templates/admin/clp/transaction/change_form.html:53
+msgid "Money has been received from the user"
+msgstr ""
+
+#: app/templates/admin/clp/transaction/change_form.html:53
+msgid "Money received from the user"
+msgstr ""
+
+#: app/templates/admin/clp/transaction/change_form.html:57
+msgid "Money has been sent to the user"
+msgstr ""
+
+#: app/templates/admin/clp/transaction/change_form.html:57
+msgid "Money sent to the user"
+msgstr ""
+
+#: app/templates/polaris/deposit.html:9 app/templates/polaris/withdraw.html:30
+msgid "Please fill out the fields below."
+msgstr ""
+
+#: app/templates/polaris/deposit.html:42
+#: app/templates/polaris/withdraw.html:121
+#: app/templates/transaction_error.html:54
+#: app/templates/withdrawal_received.html:76
+msgid "Fee"
+msgstr ""
+
+#: app/templates/polaris/deposit.html:43
+#: app/templates/polaris/withdraw.html:122
+msgid "Total"
+msgstr ""
+
+#: app/templates/polaris/deposit.html:48
+msgid "Submit"
+msgstr ""
+
+#: app/templates/polaris/deposit.html:55
+#: app/templates/polaris/withdraw.html:135
+msgid "Refresh"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:7
+msgid "Transaction More Info"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:39
+msgid "Send a transfer to our bank account:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:43
+msgid "Note"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:51
+msgid "Recipient"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:67
+msgid "Bank"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:76
+#, python-format
+msgid ""
+"\n"
+"              Make sure to attach the note <span style=\"color: #ff9100\">"
+"%(note)s</span> to the transfer.\n"
+"              "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:80
+#, python-format
+msgid ""
+"\n"
+"            Funds available within %(eta)s hours after transfer is received. "
+"<br>\n"
+"            For more information please contact \n"
+"            <a href=\"mailto:%(support_email)s\">\n"
+"              %(support_email)s\n"
+"            </a>\n"
+"            "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:95
+msgid "Click here to see the blockchain transaction"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:101
+#, python-format
+msgid ""
+"\n"
+"              Send a Bitcoin payment to the address: <br>\n"
+"              <span style=\"font-weight: bold; word-break: break-all;\">\n"
+"              %(address)s\n"
+"              </span>\n"
+"              For more information please contact \n"
+"              <a href=\"mailto:%(support_email)s\">\n"
+"                %(support_email)s\n"
+"              </a>\n"
+"              "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:115
+msgid "BTC payment:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:118
+#: app/templates/polaris/more_info.html:212
+msgid "Continue to payment"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:122
+msgid "Alternative payment options:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:125
+#: app/templates/polaris/more_info.html:223
+msgid "Option 1 - "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:125
+#: app/templates/polaris/more_info.html:236
+#, python-format
+msgid "Send %(amount_in)s BTC to the BTC address:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:134
+#: app/templates/polaris/more_info.html:148
+#: app/templates/polaris/more_info.html:191
+#: app/templates/polaris/more_info.html:232
+#: app/templates/polaris/more_info.html:245
+#: app/templates/polaris/more_info.html:292
+#: app/templates/polaris/more_info.html:324
+#: app/templates/polaris/more_info.html:378
+#: app/templates/polaris/more_info.html:393
+#: app/templates/polaris/more_info.html:427
+#: app/templates/polaris/more_info.html:443
+#: app/templates/polaris/more_info.html:485
+#: app/templates/polaris/more_info.html:501
+#: app/templates/polaris/more_info.html:543
+#: app/templates/polaris/more_info.html:559
+#: app/templates/polaris/more_info.html:574
+#: app/templates/polaris/more_info.html:607
+#: app/templates/polaris/more_info.html:623
+#: app/templates/polaris/more_info.html:664
+#: app/templates/polaris/more_info.html:680
+#: app/templates/polaris/more_info.html:695
+#: app/templates/polaris/more_info.html:728
+#: app/templates/polaris/more_info.html:744
+#: app/templates/polaris/more_info.html:759
+msgid "Copied!"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:134
+#: app/templates/polaris/more_info.html:148
+#: app/templates/polaris/more_info.html:232
+#: app/templates/polaris/more_info.html:245
+#: app/templates/polaris/more_info.html:292
+#: app/templates/polaris/more_info.html:324
+#: app/templates/polaris/more_info.html:378
+#: app/templates/polaris/more_info.html:393
+#: app/templates/polaris/more_info.html:427
+#: app/templates/polaris/more_info.html:443
+#: app/templates/polaris/more_info.html:485
+#: app/templates/polaris/more_info.html:501
+#: app/templates/polaris/more_info.html:543
+#: app/templates/polaris/more_info.html:559
+#: app/templates/polaris/more_info.html:574
+#: app/templates/polaris/more_info.html:607
+#: app/templates/polaris/more_info.html:623
+#: app/templates/polaris/more_info.html:664
+#: app/templates/polaris/more_info.html:680
+#: app/templates/polaris/more_info.html:695
+#: app/templates/polaris/more_info.html:728
+#: app/templates/polaris/more_info.html:744
+#: app/templates/polaris/more_info.html:759
+msgid "Copy"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:139
+#: app/templates/polaris/more_info.html:236
+msgid "Option 2 - "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:139
+#: app/templates/polaris/more_info.html:223
+msgid "Pay the Bitcoin Lightning invoice:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:153
+#: app/templates/polaris/more_info.html:252
+#: app/templates/polaris/more_info.html:400
+#: app/templates/polaris/more_info.html:458
+#: app/templates/polaris/more_info.html:516
+#: app/templates/polaris/more_info.html:581
+#: app/templates/polaris/more_info.html:638
+#: app/templates/polaris/more_info.html:702
+#: app/templates/polaris/more_info.html:766
+msgid "For more information please contact"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:165
+#, python-format
+msgid ""
+"\n"
+"          Signature bank routing code yyyy account xxxx - send to BP "
+"ventures.<br>\n"
+"          For more information please contact \n"
+"          <a href=\"mailto:%(support_email)s\">\n"
+"            %(support_email)s\n"
+"          </a>\n"
+"          "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:179
+msgid "To deposit the funds, pay this Bitcoin Lightning invoice:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:182
+#: app/templates/polaris/more_info.html:194
+msgid "or"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:183
+msgid "Copy and paste the Bitcoin Lightning invoice as text:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:195
+msgid "Open checkout page"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:198
+#, python-format
+msgid ""
+"\n"
+"              For more information please contact \n"
+"              <a href=\"mailto:%(support_email)s\">\n"
+"                %(support_email)s\n"
+"              </a>\n"
+"              "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:209
+msgid "BTCLN payment:"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:215
+msgid "Show alternative payment options"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:218
+msgid "Hide alternative payment options"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:263
+#, python-format
+msgid ""
+"\n"
+"          Send a Ethereum ERC20 %(token)s payment to the address:\n"
+"          <p style=\"word-break: break-all; font-weight: bold\">%(address)s</"
+"p>\n"
+"          <br>\n"
+"          %(token)s token details are available at\n"
+"          <a href=\"%(url)s\">%(token)s in Etherscan</a>.<br>\n"
+"          "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:270
+#: app/templates/polaris/more_info.html:302
+#: app/templates/polaris/more_info.html:334
+#, python-format
+msgid ""
+"\n"
+"          For more information please contact \n"
+"          <a href=\"mailto:%(support_email)s\">\n"
+"            %(support_email)s\n"
+"          </a>\n"
+"          "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:281
+#: app/templates/polaris/more_info.html:313
+#, python-format
+msgid ""
+"\n"
+"          Send %(amount_in)s %(token)s to the address:\n"
+"          "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:297
+#, python-format
+msgid ""
+"\n"
+"          %(token)s token details are available in\n"
+"          <a href=\"%(url)s\">BscScan</a>.<br>\n"
+"          "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:329
+#, python-format
+msgid ""
+"\n"
+"          %(token)s token details are available in\n"
+"          "
+msgstr ""
+
+#: app/templates/polaris/more_info.html:348
+#: app/templates/polaris/more_info.html:410
+#: app/templates/polaris/more_info.html:468
+#: app/templates/polaris/more_info.html:526
+#: app/templates/polaris/more_info.html:590
+#: app/templates/polaris/more_info.html:647
+#: app/templates/polaris/more_info.html:711
+msgid "transfer type"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:356
+#: app/templates/polaris/more_info.html:418
+#: app/templates/polaris/more_info.html:476
+#: app/templates/polaris/more_info.html:534
+#: app/templates/polaris/more_info.html:598
+#: app/templates/polaris/more_info.html:655
+#: app/templates/polaris/more_info.html:719
+msgid "destination"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:369
+#: app/templates/polaris/more_info.html:434
+#: app/templates/polaris/more_info.html:492
+#: app/templates/polaris/more_info.html:550
+#: app/templates/polaris/more_info.html:614
+#: app/templates/polaris/more_info.html:671
+#: app/templates/polaris/more_info.html:735
+msgid "Stellar Transaction"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:384
+#: app/templates/polaris/more_info.html:449
+#: app/templates/polaris/more_info.html:507
+#: app/templates/polaris/more_info.html:565
+#: app/templates/polaris/more_info.html:629
+msgid "External Transaction ID"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:399
+#: app/templates/polaris/more_info.html:457
+#: app/templates/polaris/more_info.html:515
+#: app/templates/polaris/more_info.html:580
+#: app/templates/polaris/more_info.html:637
+#: app/templates/polaris/more_info.html:701
+#: app/templates/polaris/more_info.html:765
+msgid "Funds will be sent to the above destination."
+msgstr ""
+
+#: app/templates/polaris/more_info.html:686
+msgid "Binance Transaction"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:750
+msgid "Tron Transaction"
+msgstr ""
+
+#: app/templates/polaris/more_info.html:780
+msgid ""
+"Once you've followed the above instructions, you can close this window and "
+"track the transaction from within your wallet."
+msgstr ""
+
+#: app/templates/polaris/more_info.html:782
+msgid ""
+"This window can now be closed and the transaction can be tracked from within "
+"your wallet."
+msgstr ""
+
+#: app/templates/polaris/withdraw.html:40
+msgid "Scan the Bitcoin Ligthtning Invoice QR Code:"
+msgstr ""
+
+#: app/templates/polaris/withdraw.html:42
+msgid "To enable QR Code scan, allow camera access."
+msgstr ""
+
+#: app/templates/polaris/withdraw.html:46
+msgid "Or scan a file containing the QR Code:"
+msgstr ""
+
+#: app/templates/polaris/withdraw.html:52
+msgid "Or enter the Bitcoin Lightning Invoice as text (lnbc1*):"
+msgstr ""
+
+#: app/templates/polaris/withdraw.html:87
+#: app/templates/polaris/withdraw.html:127
+msgid "Continue"
+msgstr ""
+
+#: app/templates/transaction_error.html:8
+#: app/templates/transaction_error.html:31
+msgid " Transaction Error"
+msgstr ""
+
+#: app/templates/transaction_error.html:39
+#: app/templates/withdrawal_received.html:61
+msgid "Transaction information"
+msgstr ""
+
+#: app/templates/transaction_error.html:42
+#: app/templates/transactions_error.html:35
+#: app/templates/transactions_insufficient_funds.html:35
+#: app/templates/withdrawal_received.html:100
+#: app/templates/withdrawals_received.html:69
+msgid "Polaris Transaction ID"
+msgstr ""
+
+#: app/templates/transaction_error.html:45
+msgid "Kind"
+msgstr ""
+
+#: app/templates/transaction_error.html:48
+#: app/templates/withdrawal_received.html:70
+msgid "Asset code"
+msgstr ""
+
+#: app/templates/transaction_error.html:51
+msgid "Amount In"
+msgstr ""
+
+#: app/templates/transaction_error.html:57
+msgid "Amount Out"
+msgstr ""
+
+#: app/templates/transaction_error.html:60
+msgid "To address"
+msgstr ""
+
+#: app/templates/transaction_error.html:63
+#: app/templates/withdrawal_received.html:91
+msgid "Asset issuer"
+msgstr ""
+
+#: app/templates/transaction_error.html:66
+#: app/templates/withdrawal_received.html:94
+msgid "Distribution account"
+msgstr ""
+
+#: app/templates/transaction_error.html:70
+#: app/templates/withdrawal_received.html:97
+msgid "Stellar Transaction ID"
+msgstr ""
+
+#: app/templates/transaction_error.html:74
+#: app/templates/withdrawal_received.html:64
+msgid "Customer email"
+msgstr ""
+
+#: app/templates/transaction_error.html:77
+#: app/templates/withdrawal_received.html:67
+msgid "Customer RUT"
+msgstr ""
+
+#: app/templates/transactions_error.html:8
+#: app/templates/transactions_error.html:31
+msgid " Transactions with status Error"
+msgstr ""
+
+#: app/templates/transactions_insufficient_funds.html:8
+#: app/templates/transactions_insufficient_funds.html:31
+msgid " Transactions with Insufficient Funds"
+msgstr ""
+
+#: app/templates/withdrawal_received.html:9
+#: app/templates/withdrawal_received.html:36
+msgid "CLPX Withdrawal received that requires your attention in next 24 hours"
+msgstr ""
+
+#: app/templates/withdrawal_received.html:11
+#: app/templates/withdrawal_received.html:38
+msgid " Withdrawal received"
+msgstr ""
+
+#: app/templates/withdrawal_received.html:73
+msgid "Amount received from the user"
+msgstr ""
+
+#: app/templates/withdrawal_received.html:79
+msgid "Amount to be sent to the user"
+msgstr ""
+
+#: app/templates/withdrawal_received.html:82
+msgid "Destination"
+msgstr ""
+
+#: app/templates/withdrawal_received.html:88
+msgid "Additional transaction information"
+msgstr ""
+
+#: app/templates/withdrawals_received.html:9
+msgid "CLPX Withdrawals received that requires your attention in next 24 hours"
+msgstr ""
+
+#: app/templates/withdrawals_received.html:11
+#: app/templates/withdrawals_received.html:38
+msgid " Withdrawals received"
+msgstr ""
+
+#: app/templates/withdrawals_received.html:36
+msgid "CLPX Withdrawals received that require your attention in next 24 hours"
+msgstr ""
+
+#: app/templates/withdrawals_received.html:58
+msgid "CLPX Transaction ID"
+msgstr ""
+
+#: app/validation.py:72
+msgid "Invalid pubkey"
+msgstr ""
+
+#: app/validation.py:77
+msgid "Invalid country"
+msgstr ""
+
+#: app/validation.py:82
+msgid "Invalid phone number"
+msgstr ""
+
+#: app/validation.py:89
+msgid "Invalid date"
+msgstr ""
+
+#: app/validation.py:96
+msgid "Invalid IBAN"
+msgstr ""
+
+#: app/validation.py:104
+msgid "Invalid Bitcoin address"
+msgstr ""
+
+#: app/validation.py:111
+msgid "Invalid BOLT11 address"
+msgstr ""
+
+#: app/validation.py:115
+msgid "Invalid Ethereum address"
+msgstr ""
+
+#: app/validation.py:119
+msgid "Invalid first name"
+msgstr ""
+
+#: app/validation.py:123
+msgid "Invalid last name"
+msgstr ""
+
+#: app/validation.py:127
+msgid "Invalid organization name"
+msgstr ""
+
+#: app/validation.py:131
+msgid "Invalid city"
+msgstr ""
+
+#: app/validation.py:135
+msgid "Invalid postal code"
+msgstr ""
+
+#: app/validation.py:139
+msgid "Invalid address"
+msgstr ""
+
+#: app/validation.py:143
+msgid "Invalid email address"
+msgstr ""
+
+#: app/validation.py:148
+msgid "Invalid RUT"
+msgstr ""
+
+#: app/validation.py:152
+msgid "Invalid bank name"
+msgstr ""
+
+#: app/validation.py:155
+msgid "Invalid bank account number"
+msgstr ""
+
+#: app/validation.py:178
+#, python-format
+msgid "Amount %s is lower than the minimum amount: %s"
+msgstr ""
+
+#: app/validation.py:186
+#, python-format
+msgid "Amount %s is higher than the maximum amount %s"
+msgstr ""
+
+#: apps/chaingateway/models.py:64 apps/tokengateway/models.py:44
+msgid "deposit"
+msgstr ""
+
+#: apps/chaingateway/models.py:65 apps/tokengateway/models.py:45
+msgid "withdrawal"
+msgstr ""
+
+#: apps/chaingateway/models.py:85 apps/clp/models.py:25 apps/usd/models.py:26
+msgid "Amount in"
+msgstr ""
+
+#: apps/clp/models.py:10 apps/coinbase_web/models.py:10 apps/usd/models.py:10
+msgid "Pending"
+msgstr ""
+
+#: apps/clp/models.py:11 apps/coinbase_web/models.py:11 apps/usd/models.py:11
+msgid "Received"
+msgstr ""
+
+#: apps/clp/models.py:12 apps/coinbase_web/models.py:13 apps/usd/models.py:12
+msgid "Sent"
+msgstr ""
+
+#: apps/clp/models.py:17 apps/usd/models.py:18
+msgid "Payment status"
+msgstr ""
+
+#: apps/clp/models.py:20 apps/clp/models.py:21 apps/usd/models.py:21
+#: apps/usd/models.py:22
+msgid "External memo"
+msgstr ""
+
+#: apps/clp/models.py:29 apps/usd/models.py:30
+msgid "Amount out"
+msgstr ""
+
+#: apps/clp/models.py:32 apps/clp/models.py:33
+msgid "External reference"
+msgstr ""
+
+#: apps/coinbase_web/models.py:12
+msgid "Processing"
+msgstr ""
+
+#: apps/coinbase_web/models.py:14 apps/usd/models.py:13
+msgid "Error"
+msgstr ""
