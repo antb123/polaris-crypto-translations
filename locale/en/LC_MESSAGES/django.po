@@ -20,19 +20,19 @@ msgstr ""
 
 #: app/admin.py:19
 msgid "Personal info"
-msgstr "个人信息"
+msgstr ""
 
 #: app/admin.py:20
 msgid "Permissions"
-msgstr "权限"
+msgstr ""
 
 #: app/admin.py:40 app/admin.py:149 app/admin.py:183
 msgid "amount_in is required if payment status is received"
-msgstr "如要接收支付状态，则需要 amount_in"
+msgstr ""
 
 #: app/admin.py:48 app/admin.py:157 app/admin.py:191
 msgid "amount_out is required if payment status is sent"
-msgstr "如要发送支付状态，则需要 amount_out"
+msgstr ""
 
 #: app/admin.py:288
 #, python-format
@@ -40,7 +40,6 @@ msgid ""
 "Make sure to configure the <a href=\"%(link)s\">%(label)s</a> for asset "
 "%(code)s"
 msgstr ""
-"确保为资产 %(code)s 配置<a href=\"%(link)s\">%(label)s</a>"
 
 #: app/integrations/binance/deposit.py:44
 #: app/integrations/binance/withdrawal.py:37 app/integrations/btc/deposit.py:41
@@ -50,7 +49,7 @@ msgstr ""
 #: app/integrations/ethereum/withdrawal.py:42
 #: app/integrations/tron/deposit.py:44 app/integrations/tron/withdrawal.py:37
 msgid "Missing or invalid \"type\""
-msgstr "缺失或无效\"type\""
+msgstr ""
 
 #: app/integrations/binance/deposit.py:114
 #, python-format
@@ -58,46 +57,45 @@ msgid ""
 "Send a Binance %(token)s payment to the address %(address)s. Token "
 "information available at %(url)s"
 msgstr ""
-"向地址 %(address)s 支付币安%(token)s。代币信息可在 %(url)s 查看"
 
 #: app/integrations/binance/withdrawal.py:32
 msgid "\"dest\" must contain a valid Binance address"
-msgstr "\"dest\"必须包含一个有效币安地址"
+msgstr ""
 
 #: app/integrations/btc/deposit.py:47 app/integrations/btcln/deposit.py:46
 #: app/integrations/clp/deposit.py:42
 #, python-format
 msgid "Invalid amount - cannot have more than %(places)s decimal places"
-msgstr "无效金额：不能超过 %(places)s 位小数"
+msgstr ""
 
 #: app/integrations/btc/deposit.py:54 app/integrations/btcln/deposit.py:53
 #: app/integrations/clp/deposit.py:49
 msgid "Missing or invalid \"amount\""
-msgstr "缺失或无效\"amount\""
+msgstr ""
 
 #: app/integrations/btc/deposit.py:98
 #, python-format
 msgid "Send a Bitcoin payment to the address %(address)s"
-msgstr "向地址 %(address)s 支付比特币"
+msgstr ""
 
 #: app/integrations/btc/deposit.py:137 app/integrations/btcln/deposit.py:150
 #, python-format
 msgid "Option 1: Open the checkout page: %(checkout)s. "
-msgstr "选项 1：打开付款页面：%(checkout)s。"
+msgstr ""
 
 #: app/integrations/btc/deposit.py:144
 #, python-format
 msgid "Option 2: Send the BTC payment to the BTC address %(onchain)s. "
-msgstr "选项 2：向比特币地址 %(onchain)s 支付比特币。"
+msgstr ""
 
 #: app/integrations/btc/deposit.py:150
 #, python-format
 msgid "Option 3: Pay the Bitcoin Lightning invoice: %(offchain)s. "
-msgstr "选项 3：支付比特币闪电付款清单：%(offchain)s。"
+msgstr ""
 
 #: app/integrations/btc/withdrawal.py:40
 msgid "\"dest\" must contain a valid Bitcoin address"
-msgstr "\"dest\"必须包含一个有效比特币地址"
+msgstr ""
 
 #: app/integrations/btcln/deposit.py:97
 #, python-format
@@ -105,25 +103,24 @@ msgid ""
 "Open the checkout page: %(checkout)s or Pay the Bitcoin Lightning invoice: "
 "%(payreq)s"
 msgstr ""
-"打开付款页面：%(checkout)s 或支付比特币闪电付款清单：%(payreq)s"
 
 #: app/integrations/btcln/deposit.py:157
 #, python-format
 msgid "Option 2: Pay the Bitcoin Lightning invoice: %(offchain)s. "
-msgstr "选项 2：支付比特币闪电付款清单：%(offchain)s。"
+msgstr ""
 
 #: app/integrations/btcln/deposit.py:161
 #, python-format
 msgid "Option 3: Send the BTC payment to the BTC address %(onchain)s. "
-msgstr "选项 3：向比特币地址 %(onchain)s 支付比特币。"
+msgstr ""
 
 #: app/integrations/btcln/withdrawal.py:43
 msgid "\"dest\" must be a valid Lightning BOLT11 invoice address"
-msgstr "\"dest\"必须包含一个有效闪电 BOLT11 付款清单地址"
+msgstr ""
 
 #: app/integrations/btcln/withdrawal.py:46 app/integrations/forms.py:71
 msgid "Invoices without an amount are not supported"
-msgstr "不支持没有金额的付款清单"
+msgstr ""
 
 #: app/integrations/clp/deposit.py:88
 #, python-format
@@ -132,31 +129,28 @@ msgid ""
 "Recipient: %(recipient)s | Bank account: %(bank_account)s | Bank: %(bank)s | "
 "Funds available within %(hours)s hours."
 msgstr ""
-"向我们的银行帐户发起转账并附上以下留言：%(external_memo)s | "
-"收款人： %(recipient)s | 银行账户： %(bank_account)s | 银行： %(bank)s | "
-"%(hours)s 小时内资金到账。"
 
 #: app/integrations/clp/rails.py:57
 msgid "amount_in is None"
-msgstr "amount_in 为零"
+msgstr ""
 
 #: app/integrations/clp/rails.py:64
 #, python-format
 msgid "amount_in is not between %(min_amount)s and %(max_amount)s"
-msgstr "amount_in 应大于 %(min_amount)s 并小于 %(max_amount)s"
+msgstr ""
 
 #: app/integrations/clp/withdrawal.py:33
 msgid "Missing or invalid value for \"type\""
-msgstr "\"type\"值缺失或无效"
+msgstr ""
 
 #: app/integrations/clp/withdrawal.py:73
 #, python-format
 msgid "Invalid value for 'tax_id': %(tax_id)s"
-msgstr "'tax_id'值无效：%(tax_id)s"
+msgstr ""
 
 #: app/integrations/customers.py:81
 msgid "account differs from authenticated account"
-msgstr "账户与通过验证的账户不同"
+msgstr ""
 
 #: app/integrations/ethereum/deposit.py:79
 #, python-format
@@ -164,159 +158,156 @@ msgid ""
 "Send a Ethereum ERC20 %(token)s payment to the address %(address)s. Token "
 "information available at %(url)s"
 msgstr ""
-"向地址 %(address)s 支付以太坊 ERC20 %(token)s。代币信息可在 %(url)s 查看"
 
 #: app/integrations/ethereum/withdrawal.py:37
 msgid "\"dest\" must contain a valid Ethereum address"
-msgstr "\"dest\"必须包含一个有效以太坊地址"
+msgstr ""
 
 #: app/integrations/forms.py:38
 msgid "Will not be shared with 3rd parties"
-msgstr "不会与第三方分享"
+msgstr ""
 
 #: app/integrations/forms.py:44 app/integrations/forms.py:45
 #: app/integrations/info.py:51
 msgid "Destination Bitcoin address"
-msgstr "目标比特币地址"
+msgstr ""
 
 #: app/integrations/forms.py:69
 msgid "Invalid Bitcoin Lightning BOLT11 invoice address"
-msgstr "无效的比特币闪电 BOLT11 付款清单地址"
+msgstr ""
 
 #: app/integrations/forms.py:106
 msgid "Full address"
-msgstr "详细地址"
+msgstr ""
 
 #: app/integrations/forms.py:112 app/integrations/forms.py:137
 #: app/integrations/forms.py:264
 msgid "Ex: +5511999998888"
-msgstr "例：+5511999998888"
+msgstr ""
 
 #: app/integrations/forms.py:149 app/integrations/forms.py:154
 #: app/integrations/forms.py:288 app/integrations/forms.py:293
 msgid "This field is required"
-msgstr "此为必填字段"
+msgstr ""
 
 #: app/integrations/forms.py:198 app/integrations/forms.py:242
 #, python-format
 msgid "RUT (Rol Único Tributario) <a class=\"infolink\" href=\"%(link)s\"></a>"
-msgstr "智利身份识别代码（RUT）<a class=\"infolink\" href=\"%(link)s\"></a>"
+msgstr ""
 
 #: app/integrations/forms.py:203 app/integrations/forms.py:247
 msgid "RUT (Rol Único Tributario) - 8 or 9-digit number"
-msgstr "智利身份识别代码（RUT）：8 或 9 位数字"
+msgstr ""
 
 #: app/integrations/forms.py:326 app/integrations/forms.py:336
 #: app/integrations/forms.py:437 app/integrations/forms.py:447
 msgid "Transfer type"
-msgstr "转账类型"
+msgstr ""
 
 #: app/integrations/forms.py:327 app/integrations/forms.py:337
 #: app/integrations/forms.py:438 app/integrations/forms.py:448
 msgid "Deposit transfer method"
-msgstr "存款转账方式"
+msgstr ""
 
 #: app/integrations/forms.py:328 app/integrations/forms.py:338
 #: app/integrations/forms.py:439 app/integrations/forms.py:449 app/models.py:60
 #: app/templates/polaris/more_info.html:59
 msgid "Bank account"
-msgstr "银行账户"
+msgstr ""
 
 #: app/integrations/forms.py:391 app/integrations/forms.py:392
 msgid "Destination Ethereum address"
-msgstr "目标以太坊地址"
+msgstr ""
 
 #: app/integrations/forms.py:452
 msgid "Destination bank account number"
-msgstr "目标银行账号"
+msgstr ""
 
 #: app/integrations/forms.py:453
 msgid "Destination Bank account number"
-msgstr "目标银行账号"
+msgstr ""
 
 #: app/integrations/forms.py:501 app/integrations/forms.py:502
 msgid "Destination Binance address"
-msgstr "目标币安地址"
+msgstr ""
 
 #: app/integrations/forms.py:518 app/integrations/forms.py:519
 msgid "Destination Tron address"
-msgstr "目标波场币地址"
+msgstr ""
 
 #: app/integrations/info.py:14
 #, python-format
 msgid "Amount (in CLPX) to deposit - maximum %(places)s decimal places allowed"
-msgstr "（CLPX 中）可存入金额：最多允许小数点后 %(places)s 位"
+msgstr ""
 
 #: app/integrations/info.py:21 app/integrations/info.py:61
 #: app/integrations/info.py:79 app/integrations/info.py:149
 #: app/integrations/info.py:167
 msgid "Deposit type"
-msgstr "存款类型"
+msgstr ""
 
 #: app/integrations/info.py:29 app/integrations/info.py:117
 msgid "Destination bank account"
-msgstr "目标银行账户"
+msgstr ""
 
 #: app/integrations/info.py:40
 #, python-format
 msgid "Amount (in BTC) to deposit - maximum %(places)s decimal places allowed"
-msgstr "（比特币中）可存入金额：最多允许小数点后 %(places)s 位"
+msgstr ""
 
 #: app/integrations/info.py:69 app/integrations/info.py:139
 msgid "Destination ethereum address"
-msgstr "目标以太坊地址"
+msgstr ""
 
 #: app/integrations/info.py:83 app/integrations/info.py:102 app/models.py:314
 msgid "Given or first name"
-msgstr "名"
+msgstr ""
 
 #: app/integrations/info.py:86 app/integrations/info.py:105 app/models.py:305
 #: app/models.py:322
 msgid "Family or last name"
-msgstr "姓"
+msgstr ""
 
 #: app/integrations/info.py:89 app/integrations/info.py:108 app/models.py:367
 msgid ""
 "Entire address (country, state, postal code, street address, etc...) as a "
 "multi-line string"
 msgstr ""
-"多行字符串形式的详细地址（国家、省、邮编、街道，等等）"
 
 #: app/integrations/info.py:92 app/integrations/info.py:111 app/models.py:375
 msgid "Mobile phone number with country code, in E.164 format"
-msgstr "以 E.164 号码格式填写的带国家代码的手机号"
+msgstr ""
 
 #: app/integrations/info.py:95 app/integrations/info.py:114 app/models.py:382
 #: app/models.py:383
 msgid "Email address"
-msgstr "电子邮箱地址"
+msgstr ""
 
 #: app/integrations/info.py:128
 #, python-format
 msgid ""
 "Amount (in BTCLN) to deposit - maximum %(places)s decimal places allowed"
 msgstr ""
-"（比特币闪电网络中）可存入金额：最多允许小数点后 %(places)s 位"
 
 #: app/integrations/info.py:157
 msgid "Destination binance address"
-msgstr "目标币安地址"
+msgstr ""
 
 #: app/integrations/info.py:175
 msgid "Destination tron address"
-msgstr "目标波场地址"
+msgstr ""
 
 #: app/integrations/sep31.py:58
 msgid "Invalid receiver_id"
-msgstr "receiver_id 无效 "
+msgstr ""
 
 #: app/integrations/transactions.py:116
 msgid "Stellar Deposit"
-msgstr "恒星币存入"
+msgstr ""
 
 #: app/integrations/transactions.py:276
 msgid "Stellar Withdrawal"
-msgstr "恒星币提取"
+msgstr ""
 
 #: app/integrations/tron/deposit.py:114
 #, python-format
@@ -324,368 +315,364 @@ msgid ""
 "Send a Tron %(token)s payment to the address %(address)s. Token information "
 "available at %(url)s"
 msgstr ""
-"向地址 %(address)s 支付波场 %(token)s。代币信息可在 %(url)s 查看"
 
 #: app/integrations/tron/withdrawal.py:32
 msgid "\"dest\" must contain a valid Tron address"
-msgstr "\"dest\" 必须包含一个有效的波场地址"
+msgstr ""
 
 #: app/integrations/usd/deposit.py:70
 msgid "Signature bank routing code yyyy account xxxx - send to BP ventures"
-msgstr "签名 银行代号 yyyy 账号 xxxx：发送到英国石油公司"
+msgstr ""
 
 #: app/integrations/usd/withdrawal.py:33
 msgid "Missing or invalid \"dest\""
-msgstr "\"dest\"缺失或无效"
+msgstr ""
 
 #: app/integrations/utils.py:345 app/integrations/utils.py:358
 msgid "RUT (Rol Único Tributario)"
-msgstr "智利身份识别代码（RUT）"
+msgstr ""
 
 #: app/models.py:59 apps/clp/models.py:9 apps/coinbase_web/models.py:9
 #: apps/usd/models.py:9
 msgid "Unknown"
-msgstr "未知"
+msgstr ""
 
 #: app/models.py:61
 msgid "Bitcoin"
-msgstr "比特币"
+msgstr ""
 
 #: app/models.py:62 apps/chaingateway/models.py:19
 msgid "Ethereum"
-msgstr "以太坊"
+msgstr ""
 
 #: app/models.py:63
 msgid "Lightning"
-msgstr "闪电"
+msgstr ""
 
 #: app/models.py:64 apps/chaingateway/models.py:20
 msgid "Binance"
-msgstr "币安"
+msgstr ""
 
 #: app/models.py:65 apps/chaingateway/models.py:21
 msgid "Tron"
-msgstr "波场"
+msgstr ""
 
 #: app/models.py:208
 msgid "Deposit"
-msgstr "存款"
+msgstr ""
 
 #: app/models.py:209
 msgid "Withdrawal"
-msgstr "取款"
+msgstr ""
 
 #: app/models.py:210
 msgid "Send"
-msgstr "发送"
+msgstr ""
 
 #: app/models.py:239 app/models.py:251
 msgid ""
 "Time range from now to the past, in seconds, to consider when checking the "
 "rate limits"
 msgstr ""
-"时间范围从现在到过去，以秒为单位，在检查限制流量时请注意。"
 
 #: app/models.py:266
 msgid "text"
-msgstr "文本"
+msgstr ""
 
 #: app/models.py:267
 msgid "id"
-msgstr "ID"
+msgstr ""
 
 #: app/models.py:268
 msgid "hash"
-msgstr "哈希值"
+msgstr ""
 
 #: app/models.py:271
 msgid "Person"
-msgstr "人员"
+msgstr ""
 
 #: app/models.py:272
 msgid "Company"
-msgstr "公司"
+msgstr ""
 
 #: app/models.py:278 apps/clp/models.py:36
 msgid "Notes"
-msgstr "注释"
+msgstr ""
 
 #: app/models.py:297
 msgid "SEP-31 enabled"
-msgstr "已开启 SEP-31"
+msgstr ""
 
 #: app/models.py:298
 msgid "Indicates whether the customer can use SEP-31 or not"
-msgstr "指示客户是否可以使用 SEP-31"
+msgstr ""
 
 #: app/models.py:304
 msgid "Account type"
-msgstr "账户类型"
+msgstr ""
 
 #: app/models.py:314
 msgid "First name"
-msgstr "名"
+msgstr ""
 
 #: app/models.py:321
 msgid "Last name"
-msgstr "姓"
+msgstr ""
 
 #: app/models.py:328
 msgid "Additional name"
-msgstr "别名"
+msgstr ""
 
 #: app/models.py:329
 msgid "Middle name or other additional name"
-msgstr "中间名或其他别名"
+msgstr ""
 
 #: app/models.py:336
 msgid "Address country code"
-msgstr "地址国家代码"
+msgstr ""
 
 #: app/models.py:337
 msgid "Country code for current address"
-msgstr "现居地址的国家代码"
+msgstr ""
 
 #: app/models.py:343
 msgid "State or province"
-msgstr "州或省"
+msgstr ""
 
 #: app/models.py:344
 msgid "Name of state/province/region/prefecture"
-msgstr "州/省/地区/县的名称"
+msgstr ""
 
 #: app/models.py:350
 msgid "City"
-msgstr "城市"
+msgstr ""
 
 #: app/models.py:351
 msgid "Name of city/town"
-msgstr "城市/城镇名称"
+msgstr ""
 
 #: app/models.py:358
 msgid "Postal code"
-msgstr "邮编"
+msgstr ""
 
 #: app/models.py:359
 msgid "Postal or other code identifying user's locale"
-msgstr "邮编或其它识别使用者地区的代码"
+msgstr ""
 
 #: app/models.py:366
 msgid "Address"
-msgstr "地址"
+msgstr ""
 
 #: app/models.py:374
 msgid "Mobile number"
-msgstr "手机号"
+msgstr ""
 
 #: app/models.py:390
 msgid "Birth date"
-msgstr "生日"
+msgstr ""
 
 #: app/models.py:391
 msgid "Date of birth, e.g. 1976-07-04"
-msgstr "出生日期，如：1976-07-04"
+msgstr ""
 
 #: app/models.py:397
 msgid "Birth place"
-msgstr "出生地"
+msgstr ""
 
 #: app/models.py:398
 msgid "Place of birth (city, state, country; as on passport)"
-msgstr "出生地（护照中登记的城市、省）"
+msgstr ""
 
 #: app/models.py:404
 msgid "Birth country code"
-msgstr "出生国代码"
+msgstr ""
 
 #: app/models.py:405
 msgid "ISO Code of country of birth"
-msgstr "出生国 ISO 代码"
+msgstr ""
 
 #: app/models.py:411
 msgid "Bank account number"
-msgstr "银行账号"
+msgstr ""
 
 #: app/models.py:412
 msgid "Number identifying bank account"
-msgstr "标识银行账户的号码"
+msgstr ""
 
 #: app/models.py:418
 msgid "Bank number"
-msgstr "银行代码"
+msgstr ""
 
 #: app/models.py:419
 msgid ""
 "Number identifying bank in national banking system (routing number in US)"
 msgstr ""
-"国家银行系统中标识银行的代码（如美国的银行代码）"
 
 #: app/models.py:425
 msgid "Bank name"
-msgstr "银行名称"
+msgstr ""
 
 #: app/models.py:426
 msgid "Name identifying bank in national banking system"
-msgstr "国家银行系统中标识银行的名称"
+msgstr ""
 
 #: app/models.py:432
 msgid "Bank phone number"
-msgstr "银行电话号码"
+msgstr ""
 
 #: app/models.py:433
 msgid "Phone number with country code for bank"
-msgstr "银行带国家代码的电话号码"
+msgstr ""
 
 #: app/models.py:439
 msgid "Tax ID"
-msgstr "税号"
+msgstr ""
 
 #: app/models.py:440
 msgid "Tax identifier of user in their country (social security number in US)"
-msgstr "用户所在国家的纳税识别号（如美国的社保号）"
+msgstr ""
 
 #: app/models.py:446
 msgid "TAX ID name"
-msgstr "税号名称"
+msgstr ""
 
 #: app/models.py:447
 msgid "Name of the tax ID (SSN or ITIN in the US)"
-msgstr "税号的名称（如美国的 SSN 或 ITIN)"
+msgstr ""
 
 #: app/models.py:453
 msgid "Occupation"
-msgstr "职业"
+msgstr ""
 
 #: app/models.py:454
 msgid "Occupation ISCO code"
-msgstr "职业的国际标准职业分类（ISCO）代码"
+msgstr ""
 
 #: app/models.py:460
 msgid "Employer name"
-msgstr "雇主名称"
+msgstr ""
 
 #: app/models.py:461
 msgid "Name of employer"
-msgstr "雇主的名称"
+msgstr ""
 
 #: app/models.py:467
 msgid "Employer address"
-msgstr "雇主地址"
+msgstr ""
 
 #: app/models.py:468
 msgid "Address of employer"
-msgstr "雇主的地址"
+msgstr ""
 
 #: app/models.py:474
 msgid "Language code"
-msgstr "语言代码"
+msgstr ""
 
 #: app/models.py:475
 msgid "Primary language"
-msgstr "主要语言"
+msgstr ""
 
 #: app/models.py:481
 msgid "ID type"
-msgstr "身份证件类型"
+msgstr ""
 
 #: app/models.py:482
 msgid "passport, drivers_license, id_card, etc..."
-msgstr "护照、drivers_license、id_card等"
+msgstr ""
 
 #: app/models.py:489
 msgid "ID country code"
-msgstr "身份证件的国家代码"
+msgstr ""
 
 #: app/models.py:490
 msgid "Country issuing passport or photo ID as ISO 3166-1 alpha-3 code"
-msgstr "签发护照或带照片身份证明国家的 ISO 3166-1三位字母代码"
+msgstr ""
 
 #: app/models.py:496 app/models.py:497
 msgid "ID issue date"
-msgstr "身份证明签发日期"
+msgstr ""
 
 #: app/models.py:504 app/models.py:505
 msgid "ID expiration date"
-msgstr "身份证明到期日期"
+msgstr ""
 
 #: app/models.py:511
 msgid "ID number"
-msgstr "身份证明号码"
+msgstr ""
 
 #: app/models.py:512
 msgid "Passport or ID number"
-msgstr "护照或身份证明号码"
+msgstr ""
 
 #: app/models.py:518
 msgid "Photo ID front"
-msgstr "带照片身份证明正面"
+msgstr ""
 
 #: app/models.py:519
 msgid "Image of front of user's photo ID or passport"
-msgstr "用户带照片身份证明或护照的正面图像"
+msgstr ""
 
 #: app/models.py:525
 msgid "Photo ID back"
-msgstr "带照片身份证明背面"
+msgstr ""
 
 #: app/models.py:526
 msgid "Image of back of user's photo ID or passport"
-msgstr "用户带照片身份证明或护照的背面图像"
+msgstr ""
 
 #: app/models.py:532
 msgid "Notary approval of photo ID"
-msgstr "带照片身份证明的公证认可文件"
+msgstr ""
 
 #: app/models.py:533
 msgid "Image of notary's approval of photo ID or passport"
-msgstr "带照片的身份证明或护照公证认可文件的图像"
+msgstr ""
 
 #: app/models.py:539
 msgid "IP address"
-msgstr "IP 地址"
+msgstr ""
 
 #: app/models.py:540
 msgid "IP address of customer's computer"
-msgstr "客户电脑的 IP 地址"
+msgstr ""
 
 #: app/models.py:546
 msgid "Photo proof residence"
-msgstr "住址照片证明"
+msgstr ""
 
 #: app/models.py:547
 msgid ""
 "Image of a utility bill, bank statement or similar with the user's name and "
 "address"
 msgstr ""
-"水电费账单、银行流水等有用户姓名和地址的文件的图像"
 
 #: app/models.py:556
 msgid "Organization name"
-msgstr "组织名称"
+msgstr ""
 
 #: app/models.py:557
 msgid "Full organization name as on the incorporation papers"
-msgstr "成立文件中的企业全称"
+msgstr ""
 
 #: app/models.py:563 app/models.py:564
 msgid "Organization VAT number"
-msgstr "组织增值税税号"
+msgstr ""
 
 #: app/models.py:570 app/models.py:571
 msgid "Organization registration number"
-msgstr "组织登记号码"
+msgstr ""
 
 #: app/models.py:577 app/models.py:578
 msgid "Organization registered address"
-msgstr "组织登记地址"
+msgstr ""
 
 #: app/models.py:584 app/models.py:585
 msgid "Organization shareholder number"
-msgstr "组织股东号"
+msgstr ""
 
 #: app/models.py:591
 msgid "Organization shareholder name"
-msgstr "组织股东名称"
+msgstr ""
 
 #: app/models.py:592
 msgid ""
@@ -693,170 +680,167 @@ msgid ""
 "the ultimate beneficial owners (with KYC information for natural persons "
 "such as above)"
 msgstr ""
-"可以是一个企业或者一个自然人，并应追溯到最终受益所有人（自然人应有如上述的“了解客户（KYC）”信息）"
 
 #: app/models.py:598
 msgid "Organization photo incorporation doc"
-msgstr "组织成立文件的图像"
+msgstr ""
 
 #: app/models.py:599
 msgid "Image of incorporation documents"
-msgstr "组织成立文件图像"
+msgstr ""
 
 #: app/models.py:605
 msgid "Organization photo proof address"
-msgstr "组织地址图像证明"
+msgstr ""
 
 #: app/models.py:606
 msgid ""
 "Image of a utility bill, bank statement with the organization's name and "
 "address"
 msgstr ""
-"水电费账单、银行流水等有组织名称和地址的文件的图像"
 
 #: app/models.py:612
 msgid "Organization address country code"
-msgstr "组织地址国家代码"
+msgstr ""
 
 #: app/models.py:613
 msgid "country code for current address"
-msgstr "现所在地的国家代码"
+msgstr ""
 
 #: app/models.py:619
 msgid "Organization state or province"
-msgstr "组织所在州或省"
+msgstr ""
 
 #: app/models.py:620
 msgid "name of state/province/region/prefecture"
-msgstr "州/省/地区/县的名称"
+msgstr ""
 
 #: app/models.py:626
 msgid "Organization city"
-msgstr "组织所在城市"
+msgstr ""
 
 #: app/models.py:627
 msgid "name of city/town"
-msgstr "城市/城镇名称"
+msgstr ""
 
 #: app/models.py:633
 msgid "Organization postal code"
-msgstr "组织邮编"
+msgstr ""
 
 #: app/models.py:634
 msgid "Postal or other code identifying organization's locale"
-msgstr "邮编或其它识别组织所在地区的代码"
+msgstr ""
 
 #: app/models.py:640
 msgid "Organization director name"
-msgstr "组织股东名称"
+msgstr ""
 
 #: app/models.py:641
 msgid ""
 "Organization registered managing director (the rest of the information "
 "should be queried as an individual using the fields above)"
 msgstr ""
-"组织登记的常务董事（其余信息应以个人身份填写上述字段）"
 
 #: app/models.py:647 app/models.py:648
 msgid "Organization website"
-msgstr "组织网址"
+msgstr ""
 
 #: app/models.py:654
 msgid "Organization email"
-msgstr "组织电子邮箱"
+msgstr ""
 
 #: app/models.py:655
 msgid "Organization contact email"
-msgstr "组织的联系电子邮箱"
+msgstr ""
 
 #: app/models.py:661
 msgid "Organization phone"
-msgstr "组织电话"
+msgstr ""
 
 #: app/models.py:662
 msgid "Organization contact phone"
-msgstr "组织的联系电话"
+msgstr ""
 
 #: app/settings.py:171
 msgid "English"
-msgstr "英语"
+msgstr ""
 
 #: app/settings.py:172
 msgid "Spanish"
-msgstr "西班牙语"
+msgstr ""
 
 #: app/settings.py:173
 msgid "French"
-msgstr "法语"
+msgstr ""
 
 #: app/settings.py:174
 msgid "Japanese"
-msgstr "日语"
+msgstr ""
 
 #: app/settings.py:175
 msgid "Portuguese"
-msgstr "葡萄牙语"
+msgstr ""
 
 #: app/templates/admin/clp/transaction/change_form.html:53
 msgid "Money has been received from the user"
-msgstr "已从用户收取的金额"
+msgstr ""
 
 #: app/templates/admin/clp/transaction/change_form.html:53
 msgid "Money received from the user"
-msgstr "从用户收取的金额"
+msgstr ""
 
 #: app/templates/admin/clp/transaction/change_form.html:57
 msgid "Money has been sent to the user"
-msgstr "已支付给用户的金额"
+msgstr ""
 
 #: app/templates/admin/clp/transaction/change_form.html:57
 msgid "Money sent to the user"
-msgstr "支付给用户的金额"
+msgstr ""
 
 #: app/templates/polaris/deposit.html:9 app/templates/polaris/withdraw.html:30
 msgid "Please fill out the fields below."
-msgstr "请填写下列字段"
+msgstr ""
 
 #: app/templates/polaris/deposit.html:42
 #: app/templates/polaris/withdraw.html:121
 #: app/templates/transaction_error.html:54
 #: app/templates/withdrawal_received.html:76
 msgid "Fee"
-msgstr "费用"
+msgstr ""
 
 #: app/templates/polaris/deposit.html:43
 #: app/templates/polaris/withdraw.html:122
 msgid "Total"
-msgstr "合计"
+msgstr ""
 
 #: app/templates/polaris/deposit.html:48
 msgid "Submit"
-msgstr "提交"
+msgstr ""
 
 #: app/templates/polaris/deposit.html:55
 #: app/templates/polaris/withdraw.html:135
 msgid "Refresh"
-msgstr "刷新"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:7
 msgid "Transaction More Info"
-msgstr "更多交易信息"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:39
 msgid "Send a transfer to our bank account:"
-msgstr "向我们的银行账户转账："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:43
 msgid "Note"
-msgstr "留言"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:51
 msgid "Recipient"
-msgstr "收款人"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:67
 msgid "Bank"
-msgstr "银行"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:76
 #, python-format
@@ -866,10 +850,6 @@ msgid ""
 "%(note)s</span> to the transfer.\n"
 "              "
 msgstr ""
-"\n"
-"              确保转账时附上留言 <span style=\"color: #ff9100\">"
-"%(note)s</span>。\n"
-"              "
 
 #: app/templates/polaris/more_info.html:80
 #, python-format
@@ -883,18 +863,10 @@ msgid ""
 "            </a>\n"
 "            "
 msgstr ""
-"\n"
-"            转账收款后 %(eta)s 小时后资金可用。"
-"<br>\n"
-"            更多信息，请联系 \n"
-"            <a href=\"mailto:%(support_email)s\">\n"
-"              %(support_email)s\n"
-"            </a>\n"
-"            "
 
 #: app/templates/polaris/more_info.html:95
 msgid "Click here to see the blockchain transaction"
-msgstr "点击此处查看区块链交易"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:101
 #, python-format
@@ -910,40 +882,30 @@ msgid ""
 "              </a>\n"
 "              "
 msgstr ""
-"\n"
-"              向以下地址支付比特币: <br>\n"
-"              <span style=\"font-weight: bold; word-break: break-all;\">\n"
-"              %(address)s\n"
-"              </span>\n"
-"              更多信息，请联系\n"
-"              <a href=\"mailto:%(support_email)s\">\n"
-"                %(support_email)s\n"
-"              </a>\n"
-"              "
 
 #: app/templates/polaris/more_info.html:115
 msgid "BTC payment:"
-msgstr "比特币付款："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:118
 #: app/templates/polaris/more_info.html:212
 msgid "Continue to payment"
-msgstr "继续付款"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:122
 msgid "Alternative payment options:"
-msgstr "其他付款选项"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:125
 #: app/templates/polaris/more_info.html:223
 msgid "Option 1 - "
-msgstr "选项 1："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:125
 #: app/templates/polaris/more_info.html:236
 #, python-format
 msgid "Send %(amount_in)s BTC to the BTC address:"
-msgstr "向比特币地址支付 %(amount_in)s 个比特币："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:134
 #: app/templates/polaris/more_info.html:148
@@ -970,7 +932,7 @@ msgstr "向比特币地址支付 %(amount_in)s 个比特币："
 #: app/templates/polaris/more_info.html:744
 #: app/templates/polaris/more_info.html:759
 msgid "Copied!"
-msgstr "已复制！"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:134
 #: app/templates/polaris/more_info.html:148
@@ -996,17 +958,17 @@ msgstr "已复制！"
 #: app/templates/polaris/more_info.html:744
 #: app/templates/polaris/more_info.html:759
 msgid "Copy"
-msgstr "复制"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:139
 #: app/templates/polaris/more_info.html:236
 msgid "Option 2 - "
-msgstr "选项 2："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:139
 #: app/templates/polaris/more_info.html:223
 msgid "Pay the Bitcoin Lightning invoice:"
-msgstr "支付比特币闪电付款清单："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:153
 #: app/templates/polaris/more_info.html:252
@@ -1018,7 +980,7 @@ msgstr "支付比特币闪电付款清单："
 #: app/templates/polaris/more_info.html:702
 #: app/templates/polaris/more_info.html:766
 msgid "For more information please contact"
-msgstr "更多信息，请联系"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:165
 #, python-format
@@ -1032,30 +994,23 @@ msgid ""
 "          </a>\n"
 "          "
 msgstr ""
-"\n"
-"          签名 银行代号 yyyy 账号 xxxx：发送到英国石油公司<br>\n"
-"          更多信息，请联系\n"
-"          <a href=\"mailto:%(support_email)s\">\n"
-"            %(support_email)s\n"
-"          </a>\n"
-"          "
 
 #: app/templates/polaris/more_info.html:179
 msgid "To deposit the funds, pay this Bitcoin Lightning invoice:"
-msgstr "如要存入资金，请支付该比特币闪电付款清单："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:182
 #: app/templates/polaris/more_info.html:194
 msgid "or"
-msgstr "或"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:183
 msgid "Copy and paste the Bitcoin Lightning invoice as text:"
-msgstr "将比特币闪电付款清单复制粘贴为文本："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:195
 msgid "Open checkout page"
-msgstr "打开付款页面"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:198
 #, python-format
@@ -1067,24 +1022,18 @@ msgid ""
 "              </a>\n"
 "              "
 msgstr ""
-"\n"
-"              更多信息，请联系\n"
-"              <a href=\"mailto:%(support_email)s\">\n"
-"               %(support_email)s\n"
-"          </a>\n"
-"              "
 
 #: app/templates/polaris/more_info.html:209
 msgid "BTCLN payment:"
-msgstr "比特币闪电网络付款："
+msgstr ""
 
 #: app/templates/polaris/more_info.html:215
 msgid "Show alternative payment options"
-msgstr "显示其他付款选项"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:218
 msgid "Hide alternative payment options"
-msgstr "隐藏其他付款选项"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:263
 #, python-format
@@ -1098,14 +1047,6 @@ msgid ""
 "          <a href=\"%(url)s\">%(token)s in Etherscan</a>.<br>\n"
 "          "
 msgstr ""
-"\n"
-"          向以下地址支付以太坊 ERC20 %(token)s：\n"
-"          <p style=\"word-break: break-all; font-weight: bold\">%(address)s</"
-"p>\n"
-"          <br>\n"
-"          %(token)s 代币的详细信息可在此查看：\n"
-"          <a href=\"%(url)s\">Etherscan 中的%(token)s</a>。<br>\n"
-"          "
 
 #: app/templates/polaris/more_info.html:270
 #: app/templates/polaris/more_info.html:302
@@ -1119,12 +1060,6 @@ msgid ""
 "          </a>\n"
 "          "
 msgstr ""
-"\n"
-"          更多信息，请联系\n"
-"          <a href=\"mailto:%(support_email)s\">\n"
-"               %(support_email)s\n"
-"          </a>\n"
-"          "
 
 #: app/templates/polaris/more_info.html:281
 #: app/templates/polaris/more_info.html:313
@@ -1134,9 +1069,6 @@ msgid ""
 "          Send %(amount_in)s %(token)s to the address:\n"
 "          "
 msgstr ""
-"\n"
-"          向以下地址支付 %(amount_in)s 个 %(token)s：\n"
-"        "
 
 #: app/templates/polaris/more_info.html:297
 #, python-format
@@ -1146,10 +1078,6 @@ msgid ""
 "          <a href=\"%(url)s\">BscScan</a>.<br>\n"
 "          "
 msgstr ""
-"\n"
-"          %(token)s 代币详细信息可在此查看：\n"
-"          <a href=\"%(url)s\">BscScan</a>。<br>\n"
-"          "
 
 #: app/templates/polaris/more_info.html:329
 #, python-format
@@ -1158,9 +1086,6 @@ msgid ""
 "          %(token)s token details are available in\n"
 "          "
 msgstr ""
-"\n"
-"          %(token)s 代币详细信息可在此查看：\n"
-"          "
 
 #: app/templates/polaris/more_info.html:348
 #: app/templates/polaris/more_info.html:410
@@ -1170,7 +1095,7 @@ msgstr ""
 #: app/templates/polaris/more_info.html:647
 #: app/templates/polaris/more_info.html:711
 msgid "transfer type"
-msgstr "转账类型"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:356
 #: app/templates/polaris/more_info.html:418
@@ -1180,7 +1105,7 @@ msgstr "转账类型"
 #: app/templates/polaris/more_info.html:655
 #: app/templates/polaris/more_info.html:719
 msgid "destination"
-msgstr "目的地"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:369
 #: app/templates/polaris/more_info.html:434
@@ -1190,7 +1115,7 @@ msgstr "目的地"
 #: app/templates/polaris/more_info.html:671
 #: app/templates/polaris/more_info.html:735
 msgid "Stellar Transaction"
-msgstr "恒星币交易"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:384
 #: app/templates/polaris/more_info.html:449
@@ -1198,7 +1123,7 @@ msgstr "恒星币交易"
 #: app/templates/polaris/more_info.html:565
 #: app/templates/polaris/more_info.html:629
 msgid "External Transaction ID"
-msgstr "外部交易 ID"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:399
 #: app/templates/polaris/more_info.html:457
@@ -1208,277 +1133,275 @@ msgstr "外部交易 ID"
 #: app/templates/polaris/more_info.html:701
 #: app/templates/polaris/more_info.html:765
 msgid "Funds will be sent to the above destination."
-msgstr "资金将转入上述目的地"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:686
 msgid "Binance Transaction"
-msgstr "币安交易"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:750
 msgid "Tron Transaction"
-msgstr "波场交易"
+msgstr ""
 
 #: app/templates/polaris/more_info.html:780
 msgid ""
 "Once you've followed the above instructions, you can close this window and "
 "track the transaction from within your wallet."
 msgstr ""
-"如果您遵循了上述操作指示，您现在可以关闭窗口并从钱包中跟踪此交易。"
 
 #: app/templates/polaris/more_info.html:782
 msgid ""
 "This window can now be closed and the transaction can be tracked from within "
 "your wallet."
 msgstr ""
-"您可以关闭此窗口并从钱包里跟踪此交易。"
 
 #: app/templates/polaris/withdraw.html:40
 msgid "Scan the Bitcoin Ligthtning Invoice QR Code:"
-msgstr "扫比特币闪电付款清单的二维码："
+msgstr ""
 
 #: app/templates/polaris/withdraw.html:42
 msgid "To enable QR Code scan, allow camera access."
-msgstr "如要开启扫二维码功能，请允许访问摄像头。"
+msgstr ""
 
 #: app/templates/polaris/withdraw.html:46
 msgid "Or scan a file containing the QR Code:"
-msgstr "或者扫一个包含二维码的文件："
+msgstr ""
 
 #: app/templates/polaris/withdraw.html:52
 msgid "Or enter the Bitcoin Lightning Invoice as text (lnbc1*):"
-msgstr "或将比特币闪电付款清单输入为文本（lnbc1*）："
+msgstr ""
 
 #: app/templates/polaris/withdraw.html:87
 #: app/templates/polaris/withdraw.html:127
 msgid "Continue"
-msgstr "继续"
+msgstr ""
 
 #: app/templates/transaction_error.html:8
 #: app/templates/transaction_error.html:31
 msgid " Transaction Error"
-msgstr "交易错误"
+msgstr ""
 
 #: app/templates/transaction_error.html:39
 #: app/templates/withdrawal_received.html:61
 msgid "Transaction information"
-msgstr "交易信息"
+msgstr ""
 
 #: app/templates/transaction_error.html:42
 #: app/templates/transactions_error.html:35
 #: app/templates/transactions_insufficient_funds.html:35
 #: app/templates/withdrawal_received.html:100
 msgid "Polaris Transaction ID"
-msgstr "Polaris 交易 ID"
+msgstr ""
 
 #: app/templates/transaction_error.html:45
 msgid "Kind"
-msgstr "类型"
+msgstr ""
 
 #: app/templates/transaction_error.html:48
 #: app/templates/withdrawal_received.html:70
 msgid "Asset code"
-msgstr "资产代码"
+msgstr ""
 
 #: app/templates/transaction_error.html:51
 msgid "Amount In"
-msgstr "收入金额"
+msgstr ""
 
 #: app/templates/transaction_error.html:57
 msgid "Amount Out"
-msgstr "支出金额"
+msgstr ""
 
 #: app/templates/transaction_error.html:60
 msgid "To address"
-msgstr "目标地址"
+msgstr ""
 
 #: app/templates/transaction_error.html:63
 #: app/templates/withdrawal_received.html:91
 msgid "Asset issuer"
-msgstr "资产发行机构"
+msgstr ""
 
 #: app/templates/transaction_error.html:66
 #: app/templates/withdrawal_received.html:94
 msgid "Distribution account"
-msgstr "分配账户"
+msgstr ""
 
 #: app/templates/transaction_error.html:70
 #: app/templates/withdrawal_received.html:97
 msgid "Stellar Transaction ID"
-msgstr "恒星币交易 ID"
+msgstr ""
 
 #: app/templates/transaction_error.html:74
 #: app/templates/withdrawal_received.html:64
 msgid "Customer email"
-msgstr "客户电子邮箱"
+msgstr ""
 
 #: app/templates/transaction_error.html:77
 #: app/templates/withdrawal_received.html:67
 msgid "Customer RUT"
-msgstr "客户智利身份识别代码（RUT）"
+msgstr ""
 
 #: app/templates/transactions_error.html:8
 #: app/templates/transactions_error.html:31
 msgid " Transactions with status Error"
-msgstr "错误状态的交易"
+msgstr ""
 
 #: app/templates/transactions_insufficient_funds.html:8
 #: app/templates/transactions_insufficient_funds.html:31
 msgid " Transactions with Insufficient Funds"
-msgstr "资金不足的交易"
+msgstr ""
 
 #: app/templates/withdrawal_received.html:9
 #: app/templates/withdrawal_received.html:36
 msgid "CLPX Withdrawal received that requires your attention in next 24 hours"
-msgstr "已收到的 CLPX 取款需要您在接下来 24 小时关注"
+msgstr ""
 
 #: app/templates/withdrawal_received.html:11
 #: app/templates/withdrawal_received.html:38
 msgid " Withdrawal received"
-msgstr "已收到的取款"
+msgstr ""
 
 #: app/templates/withdrawal_received.html:73
 msgid "Amount received from the user"
-msgstr "从用户收取的金额"
+msgstr ""
 
 #: app/templates/withdrawal_received.html:79
 msgid "Amount to be sent to the user"
-msgstr "将支付给用户的金额"
+msgstr ""
 
 #: app/templates/withdrawal_received.html:82
 msgid "Destination"
-msgstr "目的地"
+msgstr ""
 
 #: app/templates/withdrawal_received.html:88
 msgid "Additional transaction information"
-msgstr "额外交易信息"
+msgstr ""
 
 #: app/validation.py:72
 msgid "Invalid pubkey"
-msgstr "公钥无效"
+msgstr ""
 
 #: app/validation.py:77
 msgid "Invalid country"
-msgstr "国家无效"
+msgstr ""
 
 #: app/validation.py:82
 msgid "Invalid phone number"
-msgstr "电话号码无效"
+msgstr ""
 
 #: app/validation.py:89
 msgid "Invalid date"
-msgstr "日期无效"
+msgstr ""
 
 #: app/validation.py:96
 msgid "Invalid IBAN"
-msgstr "国际银行账号无效"
+msgstr ""
 
 #: app/validation.py:104
 msgid "Invalid Bitcoin address"
-msgstr "比特币地址无效"
+msgstr ""
 
 #: app/validation.py:111
 msgid "Invalid BOLT11 address"
-msgstr "BOLT11 地址无效"
+msgstr ""
 
 #: app/validation.py:115
 msgid "Invalid Ethereum address"
-msgstr "以太坊地址无效"
+msgstr ""
 
 #: app/validation.py:119
 msgid "Invalid first name"
-msgstr "名字无效"
+msgstr ""
 
 #: app/validation.py:123
 msgid "Invalid last name"
-msgstr "姓氏无效"
+msgstr ""
 
 #: app/validation.py:127
 msgid "Invalid organization name"
-msgstr "组织名称无效"
+msgstr ""
 
 #: app/validation.py:131
 msgid "Invalid city"
-msgstr "城市无效"
+msgstr ""
 
 #: app/validation.py:135
 msgid "Invalid postal code"
-msgstr "邮编无效"
+msgstr ""
 
 #: app/validation.py:139
 msgid "Invalid address"
-msgstr "地址无效"
+msgstr ""
 
 #: app/validation.py:143
 msgid "Invalid email address"
-msgstr "电子邮箱地址无效"
+msgstr ""
 
 #: app/validation.py:148
 msgid "Invalid RUT"
-msgstr "智利身份识别代码（RUT）无效"
+msgstr ""
 
 #: app/validation.py:152
 msgid "Invalid bank name"
-msgstr "银行名称无效"
+msgstr ""
 
 #: app/validation.py:155
 msgid "Invalid bank account number"
-msgstr "银行账号无效"
+msgstr ""
 
 #: app/validation.py:178
 #, python-format
 msgid "Amount %s is lower than the minimum amount: %s"
-msgstr "金额 %s 低于最小金额： %s"
+msgstr ""
 
 #: app/validation.py:186
 #, python-format
 msgid "Amount %s is higher than the maximum amount %s"
-msgstr "金额 %s 高于最大金额 %s"
+msgstr ""
 
 #: apps/chaingateway/models.py:64 apps/tokengateway/models.py:44
 msgid "deposit"
-msgstr "存款"
+msgstr ""
 
 #: apps/chaingateway/models.py:65 apps/tokengateway/models.py:45
 msgid "withdrawal"
-msgstr "取款"
+msgstr ""
 
 #: apps/chaingateway/models.py:85 apps/clp/models.py:25 apps/usd/models.py:26
 msgid "Amount in"
-msgstr "收入金额"
+msgstr ""
 
 #: apps/clp/models.py:10 apps/coinbase_web/models.py:10 apps/usd/models.py:10
 msgid "Pending"
-msgstr "待处理"
+msgstr ""
 
 #: apps/clp/models.py:11 apps/coinbase_web/models.py:11 apps/usd/models.py:11
 msgid "Received"
-msgstr "已接收"
+msgstr ""
 
 #: apps/clp/models.py:12 apps/coinbase_web/models.py:13 apps/usd/models.py:12
 msgid "Sent"
-msgstr "已发出"
+msgstr ""
 
 #: apps/clp/models.py:17 apps/usd/models.py:18
 msgid "Payment status"
-msgstr "支付状态"
+msgstr ""
 
 #: apps/clp/models.py:20 apps/clp/models.py:21 apps/usd/models.py:21
 #: apps/usd/models.py:22
 msgid "External memo"
-msgstr "对外备忘录"
+msgstr ""
 
 #: apps/clp/models.py:29 apps/usd/models.py:30
 msgid "Amount out"
-msgstr "支出金额"
+msgstr ""
 
 #: apps/clp/models.py:32 apps/clp/models.py:33
 msgid "External reference"
-msgstr "外部引用"
+msgstr ""
 
 #: apps/coinbase_web/models.py:12
 msgid "Processing"
-msgstr "处理中"
+msgstr ""
 
 #: apps/coinbase_web/models.py:14 apps/usd/models.py:13
 msgid "Error"
-msgstr "错误"
+msgstr ""
