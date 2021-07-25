@@ -1124,6 +1124,7 @@ msgstr ""
 "          <a href=\"mailto:%(support_email)s\">\n"
 "               %(support_email)s\n"
 "          </a>\n"
+"          "
 
 #: app/templates/polaris/more_info.html:281
 #: app/templates/polaris/more_info.html:313
