@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-18 02:04+0000\n"
+"POT-Creation-Date: 2021-07-29 21:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,8 +39,7 @@ msgstr "如要发送支付状态，则需要 amount_out"
 msgid ""
 "Make sure to configure the <a href=\"%(link)s\">%(label)s</a> for asset "
 "%(code)s"
-msgstr ""
-"确保为资产 %(code)s 配置<a href=\"%(link)s\">%(label)s</a>"
+msgstr "确保为资产 %(code)s 配置<a href=\"%(link)s\">%(label)s</a>"
 
 #: app/integrations/binance/deposit.py:44
 #: app/integrations/binance/withdrawal.py:37 app/integrations/btc/deposit.py:41
@@ -57,8 +56,7 @@ msgstr "缺失或无效\"type\""
 msgid ""
 "Send a Binance %(token)s payment to the address %(address)s. Token "
 "information available at %(url)s"
-msgstr ""
-"向地址 %(address)s 支付币安%(token)s。代币信息可在 %(url)s 查看"
+msgstr "向地址 %(address)s 支付币安%(token)s。代币信息可在 %(url)s 查看"
 
 #: app/integrations/binance/withdrawal.py:32
 msgid "\"dest\" must contain a valid Binance address"
@@ -104,8 +102,7 @@ msgstr "\"dest\"必须包含一个有效比特币地址"
 msgid ""
 "Open the checkout page: %(checkout)s or Pay the Bitcoin Lightning invoice: "
 "%(payreq)s"
-msgstr ""
-"打开付款页面：%(checkout)s 或支付比特币闪电付款清单：%(payreq)s"
+msgstr "打开付款页面：%(checkout)s 或支付比特币闪电付款清单：%(payreq)s"
 
 #: app/integrations/btcln/deposit.py:157
 #, python-format
@@ -132,15 +129,15 @@ msgid ""
 "Recipient: %(recipient)s | Bank account: %(bank_account)s | Bank: %(bank)s | "
 "Funds available within %(hours)s hours."
 msgstr ""
-"向我们的银行帐户发起转账并附上以下留言：%(external_memo)s | "
-"收款人： %(recipient)s | 银行账户： %(bank_account)s | 银行： %(bank)s | "
-"%(hours)s 小时内资金到账。"
+"向我们的银行帐户发起转账并附上以下留言：%(external_memo)s | 收款人： "
+"%(recipient)s | 银行账户： %(bank_account)s | 银行： %(bank)s | %(hours)s 小"
+"时内资金到账。"
 
-#: app/integrations/clp/rails.py:57
+#: app/integrations/clp/rails.py:58
 msgid "amount_in is None"
 msgstr "amount_in 为零"
 
-#: app/integrations/clp/rails.py:64
+#: app/integrations/clp/rails.py:65
 #, python-format
 msgid "amount_in is not between %(min_amount)s and %(max_amount)s"
 msgstr "amount_in 应大于 %(min_amount)s 并小于 %(max_amount)s"
@@ -279,8 +276,7 @@ msgstr "姓"
 msgid ""
 "Entire address (country, state, postal code, street address, etc...) as a "
 "multi-line string"
-msgstr ""
-"多行字符串形式的详细地址（国家、省、邮编、街道，等等）"
+msgstr "多行字符串形式的详细地址（国家、省、邮编、街道，等等）"
 
 #: app/integrations/info.py:92 app/integrations/info.py:111 app/models.py:375
 msgid "Mobile phone number with country code, in E.164 format"
@@ -295,8 +291,7 @@ msgstr "电子邮箱地址"
 #, python-format
 msgid ""
 "Amount (in BTCLN) to deposit - maximum %(places)s decimal places allowed"
-msgstr ""
-"（比特币闪电网络中）可存入金额：最多允许小数点后 %(places)s 位"
+msgstr "（比特币闪电网络中）可存入金额：最多允许小数点后 %(places)s 位"
 
 #: app/integrations/info.py:157
 msgid "Destination binance address"
@@ -323,8 +318,7 @@ msgstr "恒星币提取"
 msgid ""
 "Send a Tron %(token)s payment to the address %(address)s. Token information "
 "available at %(url)s"
-msgstr ""
-"向地址 %(address)s 支付波场 %(token)s。代币信息可在 %(url)s 查看"
+msgstr "向地址 %(address)s 支付波场 %(token)s。代币信息可在 %(url)s 查看"
 
 #: app/integrations/tron/withdrawal.py:32
 msgid "\"dest\" must contain a valid Tron address"
@@ -338,7 +332,7 @@ msgstr "签名 银行代号 yyyy 账号 xxxx：发送到英国石油公司"
 msgid "Missing or invalid \"dest\""
 msgstr "\"dest\"缺失或无效"
 
-#: app/integrations/utils.py:345 app/integrations/utils.py:358
+#: app/integrations/utils.py:413 app/integrations/utils.py:426
 msgid "RUT (Rol Único Tributario)"
 msgstr "智利身份识别代码（RUT）"
 
@@ -383,8 +377,7 @@ msgstr "发送"
 msgid ""
 "Time range from now to the past, in seconds, to consider when checking the "
 "rate limits"
-msgstr ""
-"时间范围从现在到过去，以秒为单位，在检查限制流量时请注意。"
+msgstr "时间范围从现在到过去，以秒为单位，在检查限制流量时请注意。"
 
 #: app/models.py:266
 msgid "text"
@@ -517,8 +510,7 @@ msgstr "银行代码"
 #: app/models.py:419
 msgid ""
 "Number identifying bank in national banking system (routing number in US)"
-msgstr ""
-"国家银行系统中标识银行的代码（如美国的银行代码）"
+msgstr "国家银行系统中标识银行的代码（如美国的银行代码）"
 
 #: app/models.py:425
 msgid "Bank name"
@@ -656,8 +648,7 @@ msgstr "住址照片证明"
 msgid ""
 "Image of a utility bill, bank statement or similar with the user's name and "
 "address"
-msgstr ""
-"水电费账单、银行流水等有用户姓名和地址的文件的图像"
+msgstr "水电费账单、银行流水等有用户姓名和地址的文件的图像"
 
 #: app/models.py:556
 msgid "Organization name"
@@ -693,7 +684,8 @@ msgid ""
 "the ultimate beneficial owners (with KYC information for natural persons "
 "such as above)"
 msgstr ""
-"可以是一个企业或者一个自然人，并应追溯到最终受益所有人（自然人应有如上述的“了解客户（KYC）”信息）"
+"可以是一个企业或者一个自然人，并应追溯到最终受益所有人（自然人应有如上述的“了"
+"解客户（KYC）”信息）"
 
 #: app/models.py:598
 msgid "Organization photo incorporation doc"
@@ -711,8 +703,7 @@ msgstr "组织地址图像证明"
 msgid ""
 "Image of a utility bill, bank statement with the organization's name and "
 "address"
-msgstr ""
-"水电费账单、银行流水等有组织名称和地址的文件的图像"
+msgstr "水电费账单、银行流水等有组织名称和地址的文件的图像"
 
 #: app/models.py:612
 msgid "Organization address country code"
@@ -754,8 +745,7 @@ msgstr "组织股东名称"
 msgid ""
 "Organization registered managing director (the rest of the information "
 "should be queried as an individual using the fields above)"
-msgstr ""
-"组织登记的常务董事（其余信息应以个人身份填写上述字段）"
+msgstr "组织登记的常务董事（其余信息应以个人身份填写上述字段）"
 
 #: app/models.py:647 app/models.py:648
 msgid "Organization website"
@@ -786,16 +776,8 @@ msgid "Spanish"
 msgstr "西班牙语"
 
 #: app/settings.py:173
-msgid "French"
-msgstr "法语"
-
-#: app/settings.py:174
-msgid "Japanese"
-msgstr "日语"
-
-#: app/settings.py:175
-msgid "Portuguese"
-msgstr "葡萄牙语"
+msgid "Chinese"
+msgstr ""
 
 #: app/templates/admin/clp/transaction/change_form.html:53
 msgid "Money has been received from the user"
@@ -818,7 +800,7 @@ msgid "Please fill out the fields below."
 msgstr "请填写下列字段"
 
 #: app/templates/polaris/deposit.html:42
-#: app/templates/polaris/withdraw.html:121
+#: app/templates/polaris/withdraw.html:121 app/templates/receipt.html:45
 #: app/templates/transaction_error.html:54
 #: app/templates/withdrawal_received.html:76
 msgid "Fee"
@@ -867,8 +849,8 @@ msgid ""
 "              "
 msgstr ""
 "\n"
-"              确保转账时附上留言 <span style=\"color: #ff9100\">"
-"%(note)s</span>。\n"
+"              确保转账时附上留言 <span style=\"color: #ff9100\">%(note)s</"
+"span>。\n"
 "              "
 
 #: app/templates/polaris/more_info.html:80
@@ -884,8 +866,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            转账收款后 %(eta)s 小时后资金可用。"
-"<br>\n"
+"            转账收款后 %(eta)s 小时后资金可用。<br>\n"
 "            更多信息，请联系 \n"
 "            <a href=\"mailto:%(support_email)s\">\n"
 "              %(support_email)s\n"
@@ -1222,15 +1203,13 @@ msgstr "波场交易"
 msgid ""
 "Once you've followed the above instructions, you can close this window and "
 "track the transaction from within your wallet."
-msgstr ""
-"如果您遵循了上述操作指示，您现在可以关闭窗口并从钱包中跟踪此交易。"
+msgstr "如果您遵循了上述操作指示，您现在可以关闭窗口并从钱包中跟踪此交易。"
 
 #: app/templates/polaris/more_info.html:782
 msgid ""
 "This window can now be closed and the transaction can be tracked from within "
 "your wallet."
-msgstr ""
-"您可以关闭此窗口并从钱包里跟踪此交易。"
+msgstr "您可以关闭此窗口并从钱包里跟踪此交易。"
 
 #: app/templates/polaris/withdraw.html:40
 msgid "Scan the Bitcoin Ligthtning Invoice QR Code:"
@@ -1253,6 +1232,36 @@ msgstr "或将比特币闪电付款清单输入为文本（lnbc1*）："
 msgid "Continue"
 msgstr "继续"
 
+#: app/templates/receipt.html:8 app/templates/receipt.html:33
+#, fuzzy
+#| msgid " Transaction Error"
+msgid " Transaction Receipt"
+msgstr "交易错误"
+
+#: app/templates/receipt.html:36 app/templates/transaction_error.html:45
+msgid "Kind"
+msgstr "类型"
+
+#: app/templates/receipt.html:39
+#, fuzzy
+#| msgid "Asset code"
+msgid "Asset"
+msgstr "资产代码"
+
+#: app/templates/receipt.html:42
+#, fuzzy
+#| msgid "Amount out"
+msgid "Amount you paid"
+msgstr "支出金额"
+
+#: app/templates/receipt.html:48
+msgid "Amount you'll receive"
+msgstr ""
+
+#: app/templates/receipt.html:51 app/templates/withdrawal_received.html:82
+msgid "Destination"
+msgstr "目的地"
+
 #: app/templates/transaction_error.html:8
 #: app/templates/transaction_error.html:31
 msgid " Transaction Error"
@@ -1267,12 +1276,9 @@ msgstr "交易信息"
 #: app/templates/transactions_error.html:35
 #: app/templates/transactions_insufficient_funds.html:35
 #: app/templates/withdrawal_received.html:100
+#: app/templates/withdrawals_received.html:69
 msgid "Polaris Transaction ID"
 msgstr "Polaris 交易 ID"
-
-#: app/templates/transaction_error.html:45
-msgid "Kind"
-msgstr "类型"
 
 #: app/templates/transaction_error.html:48
 #: app/templates/withdrawal_received.html:70
@@ -1344,13 +1350,36 @@ msgstr "从用户收取的金额"
 msgid "Amount to be sent to the user"
 msgstr "将支付给用户的金额"
 
-#: app/templates/withdrawal_received.html:82
-msgid "Destination"
-msgstr "目的地"
-
 #: app/templates/withdrawal_received.html:88
 msgid "Additional transaction information"
 msgstr "额外交易信息"
+
+#: app/templates/withdrawals_received.html:9
+#, fuzzy
+#| msgid ""
+#| "CLPX Withdrawal received that requires your attention in next 24 hours"
+msgid "CLPX Withdrawals received that requires your attention in next 24 hours"
+msgstr "已收到的 CLPX 取款需要您在接下来 24 小时关注"
+
+#: app/templates/withdrawals_received.html:11
+#: app/templates/withdrawals_received.html:38
+#, fuzzy
+#| msgid " Withdrawal received"
+msgid " Withdrawals received"
+msgstr "已收到的取款"
+
+#: app/templates/withdrawals_received.html:36
+#, fuzzy
+#| msgid ""
+#| "CLPX Withdrawal received that requires your attention in next 24 hours"
+msgid "CLPX Withdrawals received that require your attention in next 24 hours"
+msgstr "已收到的 CLPX 取款需要您在接下来 24 小时关注"
+
+#: app/templates/withdrawals_received.html:58
+#, fuzzy
+#| msgid "Polaris Transaction ID"
+msgid "CLPX Transaction ID"
+msgstr "Polaris 交易 ID"
 
 #: app/validation.py:72
 msgid "Invalid pubkey"
@@ -1482,3 +1511,12 @@ msgstr "处理中"
 #: apps/coinbase_web/models.py:14 apps/usd/models.py:13
 msgid "Error"
 msgstr "错误"
+
+#~ msgid "French"
+#~ msgstr "法语"
+
+#~ msgid "Japanese"
+#~ msgstr "日语"
+
+#~ msgid "Portuguese"
+#~ msgstr "葡萄牙语"
